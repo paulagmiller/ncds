@@ -1,0 +1,3337 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "c3adbe3e-786e-48ee-955d-9ee42f6c92f4",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "date" : "2020-08-12",
+      "name" : "Dr Paul Miller",
+      "organisation" : "NES Digital Service",
+      "email" : "paul.miller@nes.scot.nhs.uk"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "unmanaged"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "licence" : "",
+      "custodian_organisation" : "",
+      "original_namespace" : "",
+      "original_publisher" : "",
+      "custodian_namespace" : "",
+      "PARENT:MD5-CAM-1.0.1" : "8F3156560D39B12C8362DF26A4C575BD",
+      "MD5-CAM-1.0.1" : "28798f76cc57bf4e3299065121e8368a",
+      "original_language" : "ISO_639-1::en"
+    },
+    "details" : {
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "fi" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fi"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "es-ar" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es-ar"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "ko" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ko"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "nb" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nb"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "pt-br" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-br"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "ar-sy" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ar-sy"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "it" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "it"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "fr" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fr"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-COMPOSITION.encounter.v1",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-COMPOSITION.t_encounter.v1"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "COMPOSITION",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "context",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "EVENT_CONTEXT",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "attributeCustomizations" : {
+          "other_context" : {
+            "aliases" : {
+              "ar-sy" : "Document Metadata",
+              "en" : "Document Metadata",
+              "es-ar" : "Document Metadata",
+              "ko" : "Document Metadata",
+              "pt-br" : "Document Metadata",
+              "es" : "Document Metadata",
+              "nl" : "Document Metadata",
+              "sv" : "Document Metadata",
+              "de" : "Document Metadata",
+              "fi" : "Document Metadata",
+              "it" : "Document Metadata",
+              "fr" : "Document Metadata",
+              "nb" : "Document Metadata"
+            }
+          }
+        }
+      } ]
+    }, {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "content",
+      "existence" : "0..1",
+      "children" : [ {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "ACTION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.1",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-ACTION.ovl-medication-000.v1",
+        "referenceType" : "archetypeOverlay"
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "ar-sy" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
+        }
+      },
+      "es-ar" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interacción, contacto o evento de cuidados entre un sujeto de cuidados y uno o más proveedores de cuidados de la salud."
+        }
+      },
+      "ko" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "pt-br" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interação, contato ou cuidado entre o sujeito do cuidado e profissional(is) de saúde."
+        }
+      },
+      "es" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interacción, contacto o evento de cuidado entre un paciente y un proveedor de salud."
+        }
+      },
+      "nl" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interactie, contact of zorggebeurtenis tussen een onderwerp van zorg en zorgverlener(s)."
+        }
+      },
+      "sv" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interaktion, kontakt eller vårdhändelse mellan vårdtagare och vårdgivare inom hälso- och sjukvården."
+        }
+      },
+      "de" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interaktion, Kontakt oder Versorgungsereignis, zwischen einem Versorgungsempfänger und einem Gesundheitsdienstleister."
+        }
+      },
+      "fi" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Hoitohenkilön ja terveydenhuollon tarjoajan välinen vuorovaikutus, kontakti- tai hoitotapahtuma."
+        }
+      },
+      "it" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interazione, contatto o evento di cura tra un soggetto di cura e il/i fornitore/i di assistenza sanitaria."
+        }
+      },
+      "fr" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interaction, contact ou événement de soins entre un sujet de soins et un ou des prestataires de soins."
+        }
+      },
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "NDS-Vaccination-Administration",
+          "description" : "Interaksjon, kontakt eller omsorgshendelse mellom et individ og helsepersonell."
+        }
+      }
+    },
+    "termBindings" : { },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "ed2cc0eb-c508-3e66-a7bc-0e3f3e3f196f",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "NDS-Vaccination-Administration",
+  "otherMetaData" : { },
+  "templateOverlays" : [ {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "0033ab5c-cde0-4402-8b64-d30c188adf79",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "FD1C907B1347883EA0BADF79A30057FA"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-ACTION.medication.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-ACTION.ovl-medication-000.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "ACTION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "ism_transition",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0109.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "526" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0109" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0145.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "526", "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0145" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0013.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "527" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0013" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0012.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "528" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0012" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0150.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "528" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0150" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0016.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "529" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0016" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0153.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "529" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0153" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0002.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0002" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0003" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0106.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0106" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0010.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0010" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0148.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0148" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0004.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0004" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0041.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0041" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0005.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0005" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0006.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0006" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0018.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0018" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0044.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "245" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0044" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0008.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "530" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0008" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0009.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "530" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0009" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0011.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "530" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0011" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0015.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "531" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0015" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0039.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "531" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0039" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0151.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "531" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0151" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "nodeId" : "at0007.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "532" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0007" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ISM_TRANSITION",
+          "occurrences" : "0..0",
+          "nodeId" : "at0152.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "current_state",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "532" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          }, {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "careflow_step",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0152" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "description",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0017",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0020.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0132.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "CODE_PHRASE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "at0138", "at0139" ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0133.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0043.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0154.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0155.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..1",
+              "nodeId" : "at0021.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "CLUSTER",
+              "nodeId" : "at0140",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "items",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0147.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_TEXT",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "existence" : "0..1",
+                        "children" : [ {
+                          "@type" : "C_STRING",
+                          "constraint" : [ "Intramuscular", "Nasal", "Subcutaneous", "/.+/" ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0141.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_TEXT",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "existence" : "0..1",
+                        "children" : [ {
+                          "@type" : "C_STRING",
+                          "constraint" : [ "Left arm", "Right arm", "Left thigh", "Right thigh", "Left buttock", "Right buttock", "Left nostril", "Right nostril", "/.+/" ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0143.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0033.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0149.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0025.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_ARCHETYPE_ROOT",
+              "rmTypeName" : "CLUSTER",
+              "occurrences" : "0..1",
+              "nodeId" : "at0104.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ],
+              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-medication-001.v1",
+              "referenceType" : "archetypeOverlay"
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0030",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0103.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "ar-sy" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)",
+            "comment" : "*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)"
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "*The medication has been recommended but no steps have been taken to initiate prescribing.(en)"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "*The planned course of medication has been cancelled prior to any administration.(en)"
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "*The time to start this medication, or other starting condition, has been set.(en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "*A single administration of the medication has taken place.(en)"
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)"
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "*The medication course has been completed as planned.(en)"
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)",
+            "comment" : "*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. \r\nIt is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)"
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "*The sequence number specific to the activity being recorded.(en)",
+            "comment" : "*For example: Vaccine sequence number. (en)"
+          }
+        },
+        "sl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)",
+            "comment" : "*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)"
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "*The medication has been recommended but no steps have been taken to initiate prescribing.(en)"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "*The planned course of medication has been cancelled prior to any administration.(en)"
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "*The time to start this medication, or other starting condition, has been set.(en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "*A single administration of the medication has taken place.(en)"
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)"
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "*The medication course has been completed as planned.(en)"
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)",
+            "comment" : "*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. \r\nIt is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)"
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "*The sequence number specific to the activity being recorded.(en)",
+            "comment" : "*For example: Vaccine sequence number. (en)"
+          }
+        },
+        "es-ar" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)",
+            "comment" : "*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)"
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "*The medication has been recommended but no steps have been taken to initiate prescribing.(en)"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "*The planned course of medication has been cancelled prior to any administration.(en)"
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "*The time to start this medication, or other starting condition, has been set.(en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "*A single administration of the medication has taken place.(en)"
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)"
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "*The medication course has been completed as planned.(en)"
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)",
+            "comment" : "*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. \r\nIt is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)"
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "*The sequence number specific to the activity being recorded.(en)",
+            "comment" : "*For example: Vaccine sequence number. (en)"
+          }
+        },
+        "ru" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)",
+            "comment" : "*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)"
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "*The medication has been recommended but no steps have been taken to initiate prescribing.(en)"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "*The planned course of medication has been cancelled prior to any administration.(en)"
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "*The time to start this medication, or other starting condition, has been set.(en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "*A single administration of the medication has taken place.(en)"
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)"
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "*The medication course has been completed as planned.(en)"
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)",
+            "comment" : "*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. \r\nIt is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)"
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "*The sequence number specific to the activity being recorded.(en)",
+            "comment" : "*For example: Vaccine sequence number. (en)"
+          }
+        },
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.",
+            "comment" : "This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication."
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "The medication has been recommended but no steps have been taken to initiate prescribing."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "The planned course of medication has been cancelled prior to any administration."
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "The time to start the medication, or other starting condition, has been set."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "A single administration of the medication has taken place."
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "An administration of the medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order."
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "An administration of a dose of the medication has been delayed but is expected to be given as soon as possible."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "The medication course has been completed as planned."
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.",
+            "comment" : "For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. \r\nIt is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available."
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "The sequence number specific to the pathway step being recorded.",
+            "comment" : "For example: Vaccine sequence number."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "Detaljer om enhver legemiddelrelatert oppgave som utføres fra et legemiddel er ordinert eller rekvirert til det er utdelt eller eventuelt kassert, for eksempel bestilling, istandgjøring, administrering, ekspedering eller seponering.",
+            "comment" : "Dette er ikke begrenset til aktiviteter utført på bagrunn av legemiddelordineringer fra klinikere, men kan også omfatte å ta legemidler som ikke er reseptpliktige."
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "Medisineringen er anbefalt, men ordinering er ikke iverksatt."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "Den planlagte medisineringen er avbrutt før den første dosen er administrert."
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "Tidspunktet eller vilkår for å starte medisineringen er satt."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "En enkelt administrering av legemiddelet er utført."
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "En enkeltdose er holdt tilbake og ikke administrert (\"nullet\"). Det er ingen forventing om at den aktuelle dosen skal gis på et senere tidspunkt, men neste dose administreres i henhold til ordineringen."
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "Administrering av legemiddelet er utsatt/forsinket, men legemiddelet forventes administrert så raskt som mulig."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "Administrering av legemiddelet er satt på vent inntil videre, ordinasjonen er \"nullet\". Ingen ytterligere doser gis før kriterium eller dato for å sette medisineringen i gang igjen er møtt. Når dato eller kriterium for å ny oppstart settes, bør det gjøres et 'suspend_step' tilbake til \"Oppstartsdato satt\"."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "Medisineringen er fullført som ordinert."
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "Navnet på legemiddelet, vaksinen eller det medisinske forbruksmateriellet som var fokus for aktiviteten.",
+            "comment" : "For eksempel: 'Atenolol 100mg' eller 'Tenormin 100mg tabletter'. Det anbefales sterkt at \"Legemiddel\" kodes med en terminologi som understøtter beslutningsstøtte der dette er mulig, f.eks. FEST. Nivå av koding kan variere fra legemiddelnavn til strukturerte detaljer om den aktuelle legemiddelforpakningen som skal brukes. Fritekst bør bare brukes om ingen passende terminologi er tilgjengelig."
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "Sekvensnummeret for den spesifikke handlingen som blir registrert.",
+            "comment" : "For eksempel: En vaksines sekvensnummer/ nummer i en rekkefølge."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "Qualquer atividade relacionada ao planejamento, agendamento, gestão da prescrição, dispensação, administração, término e outro uso de um medicamento, vacina, produto nutricional ou outro item terapêutico.",
+            "comment" : "Este não é limitado a atividades realizadas sobre solicitação de medicação de clínicos, mas também inclui por exemplo a adquisição de medicamentos de venda livre."
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "Medicamento foi recomendado mas nenhuma ação foi realizada para iniciar a prescrição."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "O curso planejado da medicação foi cancelado antes de qualquer administração."
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "A hora de começar a medicação, ou outra condição para iniciar o tratamento foi estabelecida."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "Dose do medicamento foi administrada."
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "A administração de um medicamento foi suspensa e não realizada. Não há expectativa de que será dada mais tarde, embora a próxima dose (se houver) deva ser administrada conforme a prescrição original."
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "A administração de uma dose de medicamento foi adiada, mas espera-se que seja administrada o mais rápido possível."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "A administração do medicamento foi suspensa até nova ordem. Doses adicionais não devem ser administradas até que a data de reinício ou condições forem alcançadas. Na configuração de nova data/condições para reinício após a suspensão, deve-se realizar a etapa de suspensão de Administrações suspensas e voltar a Data do início/ Condição de início."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "O tratamento medicamentoso foi finalizado conforme previsto."
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "Nome do medicamento, vacina ou outro item terapêutico que foi o foco da atividade.",
+            "comment" : "Por exemplo: \"Atenolol 100mg\" ou \"Tenormin comprimidos 100mg\". É altamente recomendável que o \"Item de medicação\" seja codificado com uma terminologia capaz de desencadear suporte à decisão, quando possível. A extensão da codificação pode variar de um simple nome do item de medicação até detalhes estruturados sobre a embalagem de medicamento usada. Entradas em texto livre devem ser usadas apenas e não houver terminologia apropriada disponível."
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "O número sequencial específico da atividade registrada.",
+            "comment" : "*For example: Vaccine sequence number. (en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "Jede Aktivität in Bezug auf die Planung, Vorbereitung, Rezeptverwaltung, Ausgabe, Verabreichung, Einnahme, Absetzung und anderer Verwendung von Arzneimitteln, Impfstoffen, Nahrungsergänzungsmitteln und anderen therapeutischen Mitteln.",
+            "comment" : "Dies beschränkt sich nicht nur auf Aktivitäten, die auf der Grundlage von Arzneimittelverordnungen von Ärzten durchgeführt werden, sondern kann sich auch z.B. auf die Einnahme von freiverkäuflichen Medikamenten beziehen."
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "Das Arzneimittel wurde empfohlen, aber es wurden keine Schritte unternommen, um die Verschreibung/Verordnung einzuleiten."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "Die geplante Arzneimittelbehandlung wurde vor der Verabreichung abgesagt."
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "Das Startdatum der Arzneimittelanwendung oder andere Startbedingungen wurden festgelegt."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "Eine einzelne Verabreichung des Arzneimittels ist erfolgt."
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "Eine Gabe des Arzneimittels wurde zurückgehalten und nicht gegeben. Es besteht keine Erwartung, dass sie später verabreicht wird, obwohl die nächste Dosis (falls es eine gibt) gemäß der ursprünglichen Verordnung verabreicht werden sollte."
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "Die Verabreichung einer Dosis hat sich verzögert, wird aber so schnell wie möglich erfolgen."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "Die Verabreichung des Arzneimittels wurde bis zum Erhalt weiterer Informationen ausgesetzt. Es sollten keine weiteren Dosen, bis zur Bekanntgabe des neuen Startdatums oder bis die Bedingungen erfüllt sind, verabreicht werden. Wenn Sie das Datum/ die Voraussetzungen für den Neustart nach dem Aussetzen festlegen, sollte ein Schritt von \"Verabreichung wurde ausgesetzt\" und zurück zu \"Arzneimittel Startdatum/Voraussetzung\" ausgeführt werden."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "Die medikamentöse Behandlung wurde, wie geplant, beendet."
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "Name des Arzneimittels, eines Impfstoffs oder eines anderen therapeutischen Mittels, welches im Mittelpunkt der Aktivität steht.",
+            "comment" : "Zum Beispiel: \"Atenolol 100 mg\" oder \"Tenormin Tabletten 100 mg\".\r\nEs wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminologie kodiert wird, die nach Möglichkeit eine Entscheidungsunterstützung auslösen kann. Der Umfang der Kodierung kann vom einfachen Namen des Arzneimittels bis hin zu strukturierten Details über die tatsächlich verwendete Medikamentenpackung variieren. Die Freitext-Eingabe sollte nur dann verwendet werden, wenn keine entsprechende Terminologie vorhanden ist."
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "Die spezifische Sequenznummer des Prozessschritts wird erfasst.",
+            "comment" : "Zum Beispiel: Impfsequenznummer."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "Alla aktiviteter relaterade till planering, schemaläggning, recepthantering, utdelning, administrering, upphörande, vaccin, näringsprodukt och annan användning av ett läkemedel eller annan behandlings produkt.",
+            "comment" : "Detta är inte begränsat till aktiviteter som utförs bara baserat på remiss på läkemedel från kliniker, utan kan också inkludera till exempel övertagande av partikelräknare medicinering."
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "Läkemedlet har rekommenderats men inga åtgärder har vidtagits för att börja med läkemedelsförskrivning."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "Den planerade medicineringen har avbrutits före administrering."
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "Tiden för att starta medicinen, eller annat starttillstånd, har ställts in."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "En enda administrering av läkemedlet har ägt rum."
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "En administrering av läkemedlets dos har avbrutits. Det förväntas inte att det kommer att utföras klart senare heller, även om det skulle göras enligt den ursprungliga ordinationen."
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "En dos av läkemedlet har försenats men förväntas ges så snart som möjligt."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "Administreringen av läkemedlet har avbrutits tills vidare. Inga ytterligare doser ska ges förrän omstartdatumet är bestämt eller villkoren har uppfyllts. När du ställer in datum / villkor för omstart efter avstängning, ska gå från steg 'Administrationer avbryts' tillbaka till 'Läkemedelsstartdatum / tillståndssätt' utföras.\r\n"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "Läkemedelskuren har slutförts som planerat."
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "Namnet på medicinen, vaccinet eller andra behandlings/ förskrivningsbara föremål som var fokus för aktiviteten.",
+            "comment" : "Till exempel: 'Atenolol 100 mg' eller 'Tenormin tabletter 100 mg'.\r\nDet rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminologi som kan trigga igång beslutsstödet, där det är möjligt. Kodningens omfattning kan variera från det enkla namnet på läkemedelsartikeln till strukturerade detaljer om det faktiska läkemedelspaket som används. Fri textinmatning bör endast användas om det inte finns någon lämplig terminologi tillgänglig."
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "Sekvensnumret som är specifikt för sökvägen",
+            "comment" : "Till exempel: Vaccinsekvensnummer.\r\n"
+          }
+        },
+        "zh-cn" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Management",
+            "description" : "任何与药物、疫苗、营养产品/制品或其他治疗类制剂（therapeutic item）的计划[编制]、排程/安排、处方管理、配发、施用/给药、停止/停用和其他使用情况相关的活动。又称为用药管理。",
+            "comment" : "这不仅限于根据临床医生的药物医嘱所执行/开展的活动，还可以包括服用非处方药物之类的情况。"
+          },
+          "at0109.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0109.1",
+            "text" : "Vaccination Due",
+            "description" : "已经推荐了相应的药物，但尚未采取任何的措施/步骤来启动处方开立的过程。"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Vaccination cancelled",
+            "description" : "在任何的施用/给药之前，已经取消了已计划的药物治疗过程。"
+          },
+          "at0016.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016.1",
+            "text" : "Vaccination scheduled",
+            "description" : "已经设定开始用药的时间或其他的起始/开始条件。"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Vaccine administered",
+            "description" : "已经进行了单独一次的药物施用/给药。"
+          },
+          "at0018.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018.1",
+            "text" : "Vaccine administration omitted",
+            "description" : "已经予以省略/扣除而并未给予的施用/给药。 虽说应该按照原始的医嘱来施用/给予下次剂量的药物（如果有的话），但并不期望后续会再施用/给予所省略/扣除的剂量。"
+          },
+          "at0044.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0044.1",
+            "text" : "Vaccine administration deferred",
+            "description" : "已经推迟一剂药物的施用/给药，但预计会尽快施用/给药。"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Vaccine administration suspended",
+            "description" : "已经暂停了相应药物的施用/给药，直至另行通知。 在重新开始日期之前或满足种种条件之前，不应再进行给予更多的剂量药物。 在设置暂停之后的重新开始日期/条件时，应当执行从“已暂停的施用/给药”（Administrations suspended）返回到“已设定的用药开始日期/条件”（Medication start date/condition set）的步骤。"
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Vaccination completed",
+            "description" : "已经按计划完成了相应的药物治疗过程。"
+          },
+          "at0020.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0020.1",
+            "text" : "Vaccine Name",
+            "description" : "作为活动关注焦点的药物、疫苗或其他治疗项/处方项的名称。",
+            "comment" : "例如：“阿替洛尔 100mg”或“特诺明片 100mg”。\r\n强烈建议尽可能采用能够触发决策支持手段的术语集来编码“用药项”（Medication item）。编码的程度/范围可能各不相同，包括从用药项简称到关于实际使用的药物包装的结构化详情。只有在没有合适的术语集可用的情况下才应当采用自由文本录入的方式。"
+          },
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025.1",
+            "text" : "Stage",
+            "description" : "专门针对当前所记录的路径步骤的顺序编号/序列号/序号。",
+            "comment" : "例如：疫苗序列号。"
+          }
+        }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "1bb3655c-7fd6-43d2-bb93-1fe474b3dd37",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Ramona Wellmann, Natalia Strauch",
+        "organisation" : "Medizinische Hochschule Hannover",
+        "email" : "strauch.natalia@mh-hannover.de, Strauch.Natalia@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ru"
+      },
+      "author" : {
+        "name" : "Art Latyp; Артур Латыпов",
+        "organisation" : "RusBITech; Русбитех, Москва"
+      },
+      "accreditation" : "hmm",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Elham Gholami",
+        "organisation" : "SLL",
+        "email" : "elham.gholami@sll.se"
+      },
+      "accreditation" : "Ackreditering",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es-ar"
+      },
+      "author" : {
+        "name" : "Guillermo Palli"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Vebjørn Arntzen, Silje L. Bakke, John Tore Valand",
+        "organisation" : "Oslo universitetssykehus HF, Nasjonal IKT HF, Norway, Helse Bergen",
+        "email" : "john.tore.valand@helse-bergen.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Débora Farage, Fernanda Maia, Adriana Kitajima, Ana Paula Andrade, Clóvis Puttini",
+        "organisation" : "Core Consulting",
+        "email" : "contato@coreconsulting.com.br"
+      },
+      "accreditation" : "Hospital Alemão Oswaldo Cruz",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sl"
+      },
+      "author" : {
+        "name" : "Biljana Prinčič",
+        "organisation" : "Marand, Ljubljana",
+        "email" : "biljana.princic@marand.si"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "zh-cn"
+      },
+      "author" : {
+        "name" : "Lin Zhang",
+        "organisation" : "Taikang Insurance Group",
+        "email" : "linforest@163.com"
+      },
+      "accreditation" : "?",
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "a2bc5e0d-c67e-4d7e-bb87-b3b74cdefd0d",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "2AC0A5FC5AAC3D72188CB7118467A627"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.medication.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-medication-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0071.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0142.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0143", "at0146", "at0144", "at0145", "at0001" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..0",
+          "nodeId" : "at0152.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0158.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0115.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_QUANTITY",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "property",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "119" ]
+                } ]
+              } ],
+              "attributeTuples" : [ {
+                "@type" : "C_ATTRIBUTE_TUPLE",
+                "members" : [ ],
+                "tuples" : [ ]
+              } ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..1",
+          "nodeId" : "at0150.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_IDENTIFIER",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0139.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_QUANTITY",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "property",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "380" ]
+                } ]
+              } ],
+              "attributeTuples" : [ {
+                "@type" : "C_ATTRIBUTE_TUPLE",
+                "members" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "magnitude",
+                  "children" : [ ]
+                }, {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "units",
+                  "children" : [ ]
+                } ],
+                "tuples" : [ {
+                  "@type" : "C_PRIMITIVE_TUPLE",
+                  "members" : [ {
+                    "@type" : "C_REAL",
+                    "constraint" : [ {
+                      "lower" : 0.0,
+                      "lowerIncluded" : true,
+                      "upperIncluded" : false,
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
+                    } ]
+                  }, {
+                    "@type" : "C_STRING",
+                    "constraint" : [ "1" ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0008.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0148.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_QUANTITY",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "property",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "openehr"
+                  },
+                  "constraint" : [ "380" ]
+                } ]
+              } ],
+              "attributeTuples" : [ {
+                "@type" : "C_ATTRIBUTE_TUPLE",
+                "members" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "magnitude",
+                  "children" : [ ]
+                }, {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "units",
+                  "children" : [ ]
+                } ],
+                "tuples" : [ {
+                  "@type" : "C_PRIMITIVE_TUPLE",
+                  "members" : [ {
+                    "@type" : "C_REAL",
+                    "constraint" : [ {
+                      "lower" : 0.0,
+                      "lowerIncluded" : true,
+                      "upperIncluded" : false,
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
+                    } ]
+                  }, {
+                    "@type" : "C_STRING",
+                    "constraint" : [ "1" ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0127.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0080", "at0083", "at0084" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0133.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "Details about a medication or component of a medication, including strength, form and details of any specific constituents."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "Detaljer om et legemiddel eller en komponent av et legemiddel, inkludert detaljer om spesifikke bestanddeler."
+          }
+        },
+        "pt" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "*Details about a medication or component of a medication, including strength, form, and details of any specific constituents.(en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "Angaben über ein Arzneimittel oder eine Arzneimittelkomponente, einschließlich der Wirkstärke, der Darreichungsform und Informationen über spezifische Bestandteile."
+          }
+        },
+        "nl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "Gegevens over een medicament of onderdeel van een medicament, inclusief dosis, vorm en details over een specifiek bestandsdeel."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Vaccine Details",
+            "description" : "Detaljer om ett läkemedel eller en läkemedelskomponent, inkluderat styrka, form och detaljer för alla specifika beståndsdelar."
+          }
+        }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "451462ae-549d-49c9-930a-654038e55dc2",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Ramona Wellmann, Natalia Strauch",
+        "organisation" : "Medizinische Hochschule Hannover",
+        "email" : "wellmann.ramona@mh-hannover.de, Strauch.Natalia@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Sofia Janstad",
+        "organisation" : "SLL",
+        "email" : "sofia.lang-janstad@sll.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke",
+        "organisation" : "Nasjonal IKT HF"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Beatriz de Faria Leao",
+        "organisation" : "Bleao Informática em Saúde",
+        "email" : "bfleao@terra.com.br"
+      },
+      "accreditation" : "MD, PhD",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Joost Holslag",
+        "organisation" : "Nedap",
+        "email" : "joost.holslag@nedap.com"
+      },
+      "accreditation" : "MD",
+      "otherDetails" : { }
+    } ]
+  } ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : {
+      "name" : "Anneka Sargeant",
+      "organisation" : "Medizinische Informatik, UMG",
+      "email" : "anneka.sargeant@med.uni-goettingen.de"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : {
+      "name" : "Kirsi Poikela",
+      "organisation" : "Tieto Sweden AB",
+      "email" : "ext.kirsi.poikela@tieto.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fi"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es-ar"
+    },
+    "author" : {
+      "name" : "Edgardo Vazquez",
+      "organisation" : "VinculoMedico"
+    },
+    "accreditation" : "Medical Doctor",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ko"
+    },
+    "author" : {
+      "name" : "Seung-Jong Yu",
+      "organisation" : "NOUSCO Co.,Ltd.",
+      "email" : "seungjong.yu@gmail.com"
+    },
+    "accreditation" : "Certified Board of Family Medicine in South Korea",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "author" : {
+      "name" : "Lars Bitsch-Larsen",
+      "organisation" : "Haukeland University Hospital of Bergen, Norway",
+      "email" : "lbla@helse-bergen.no"
+    },
+    "accreditation" : "MD, DEAA, MBA, spec in anesthesia, spec in tropical medicine.",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-br"
+    },
+    "author" : {
+      "name" : "Vladimir Pizzo",
+      "organisation" : "Hospital Sirio Libanes, Brazil",
+      "email" : "vladimir.pizzo@hsl.org.br"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ar-sy"
+    },
+    "author" : {
+      "name" : "Mona Saleh"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "it"
+    },
+    "author" : {
+      "name" : "Paolo Anedda",
+      "organisation" : "Inpeco",
+      "email" : "paolo.anedda@inpeco.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fr"
+    },
+    "author" : {
+      "name" : "Vanessa Pereira",
+      "organisation" : "Better - Pathfinder",
+      "email" : "vanessapereira@protonmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Pablo Pazos",
+      "organisation" : "CaboLabs"
+    },
+    "accreditation" : "Computer Engineer",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : {
+      "name" : "Dennis Valk",
+      "organisation" : "Code24 BV",
+      "email" : "dennis.valk@code24.nl, dennis@code24.nl"
+    },
+    "accreditation" : "Code24 BV",
+    "otherDetails" : { }
+  } ]
+}
