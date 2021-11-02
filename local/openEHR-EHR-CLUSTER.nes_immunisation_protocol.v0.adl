@@ -29,7 +29,7 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"Apperta UK">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"802b2f45b3f2e36220da887ef8b9ecb5">
+		["MD5-CAM-1.0.1"] = <"639e837c5e146639868b45b14c336ef1">
 		["build_uid"] = <"091ece2b-3aed-4750-91c5-3d320577bb22">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -38,6 +38,11 @@ definition
 	CLUSTER[at0000] matches {    -- nes_immunisation_protocol
 		items cardinality matches {1..*; unordered} matches {
 			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Immunisation name
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0007] occurrences matches {0..1} matches {    -- Course name
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -55,6 +60,16 @@ definition
 			ELEMENT[at0004] occurrences matches {0..1} matches {    -- Subject agreement to immunisation
 				value matches {
 					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0006] occurrences matches {0..1} matches {    -- Sequence description
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0005] occurrences matches {0..1} matches {    -- Is booster
+				value matches {
+					DV_BOOLEAN matches {*}
 				}
 			}
 		}
@@ -82,6 +97,18 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Subject agreement to immunisation">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Is booster">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Sequence description">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Course name">
 					description = <"">
 				>
 			>
