@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "2.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "943f4c5376c48b453826bf8f718458b3",
+      "MD5-CAM-1.0.1" : "76ee7e673d136b0eef0bb70696d8306c",
       "PARENT:MD5-CAM-1.0.1" : "8f0bafdfbd41be6e117bd2febdd6252b"
     },
     "details" : {
@@ -96,7 +96,7 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "ACTION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.12",
+        "nodeId" : "at0.16",
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "openEHR-EHR-ACTION.ovl-medication-vaccination2-001.v1",
@@ -265,7 +265,7 @@
     "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "c7f80806-de7d-42ba-9a41-b8d383740de9",
+    "uid" : "fd081589-b637-48af-b1d3-bb096e592043",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
