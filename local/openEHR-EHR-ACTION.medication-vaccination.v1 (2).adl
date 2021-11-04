@@ -130,6 +130,18 @@ Nicht für den Medikamentenabgleich verwenden. Für diesen Zweck muss der passen
 Nicht für eine formelle Überprüfung einer ganzen Medikamentenliste, z.B. durch einen Apotheker, verwenden. Für diesen Zweck müssen andere geeignete Archetypen verwendet werden.
 ">
 		>
+		["ru"] = <
+			language = <[ISO_639-1::ru]>
+			purpose = <"этот архетип класса ДЕЙСТВИЕ позволяет записывать активность, связанную с введением лекарств или применением лечения. Обычно такая активность возникает в ответ на назначение лекарства врачом, но также может быть при самолечении или лечении по совету аптекаря. Информация о времени приема отсутствует, так как использование данного архетипа предполагает, что действие произведено в настоящий момент времени.">
+			keywords = <"лекарство","медикамент","введение","прием">
+			copyright = <"© openEHR Foundation">
+			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
+
+Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
+
+There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
+			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
+		>
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			purpose = <"För registrering av detaljer om aktiviteter som är relaterade till planering, schemaläggning, recepthantering, utdelning, administrering, upphörande och annan användning av läkemedel, vaccin, näringsprodukt eller annan behandlings produkt.">
@@ -172,30 +184,6 @@ Får inte användas för avstämning av läkemedel. Använd andra lämpliga arke
 
 Får inte användas för en formell granskning av en hel läkemedelslista, till exempel av en apotekare. Använd andra lämpliga arketyper för detta ändamål.">
 		>
-		["ru"] = <
-			language = <[ISO_639-1::ru]>
-			purpose = <"этот архетип класса ДЕЙСТВИЕ позволяет записывать активность, связанную с введением лекарств или применением лечения. Обычно такая активность возникает в ответ на назначение лекарства врачом, но также может быть при самолечении или лечении по совету аптекаря. Информация о времени приема отсутствует, так как использование данного архетипа предполагает, что действие произведено в настоящий момент времени.">
-			keywords = <"лекарство","медикамент","введение","прием">
-			copyright = <"© openEHR Foundation">
-			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
-
-Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
-
-There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
-			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
-		>
-		["es-ar"] = <
-			language = <[ISO_639-1::es-ar]>
-			purpose = <"Este ACTION permite la grabación de las ordenes de prescripciones. Esto será normalmente en respuesta a una orden de medicación o prescripción, pero puede ser autoadministrado o suministrada por una farmacia. No existe informacion sobre si el uso de este arquetipo implica que alguna accion haya efectivamente sido ejecutada">
-			keywords = <"*medication(en)","*prescibe(en)","*dispense(en)","*administration(en)","*cessation(en)","*therapeutic good(en)","*supply(en)","*medicine(en)","*drug(en)">
-			copyright = <"© openEHR Foundation">
-			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
-
-Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
-
-There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
-			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
-		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For å registrere detaljer om enhver legemiddelrelatert oppgave som utføres fra et legemiddel er ordinert eller rekvirert til det er utdelt eller eventuelt kassert, for eksempel bestilling, istandgjøring, administrering, ekspedering eller seponering.">
@@ -231,6 +219,18 @@ Skal ikke brukes for å registrere detaljer om adheranse, sekundæreffekter elle
 Skal ikke brukes for legemiddelsamstemming. Bruk andre arketyper for dette formålet.
 
 Skal ikke brukes for en formell gjennomgang av en hel legemiddelliste, for eksempel av farmasøyt. Bruk andre arketyper for dette formålet.">
+		>
+		["es-ar"] = <
+			language = <[ISO_639-1::es-ar]>
+			purpose = <"Este ACTION permite la grabación de las ordenes de prescripciones. Esto será normalmente en respuesta a una orden de medicación o prescripción, pero puede ser autoadministrado o suministrada por una farmacia. No existe informacion sobre si el uso de este arquetipo implica que alguna accion haya efectivamente sido ejecutada">
+			keywords = <"*medication(en)","*prescibe(en)","*dispense(en)","*administration(en)","*cessation(en)","*therapeutic good(en)","*supply(en)","*medicine(en)","*drug(en)">
+			copyright = <"© openEHR Foundation">
+			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
+
+Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
+
+There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
+			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
 		>
 		["pt-br"] = <
 			language = <[ISO_639-1::pt-br]>
@@ -271,30 +271,6 @@ Não deve ser usado para reconciliação de medicamentos. Use arquétipos apropr
 Não deve ser usado para uma revisão formal de uma lista inteira de medicameção, por exemplo por um farmacêutico. Use arquétipos apropriados para este propósito.
 ">
 		>
-		["ar-sy"] = <
-			language = <[ISO_639-1::ar-sy]>
-			purpose = <"يُمَكِّن هذا الفعل من تسجيل الأفعال التي يتم تنفيذها فيما يتعلق بالأدوية. و عادة ما يكون ذلك استجابة لأمر دوائي أو وصفة دوائية, و لكنه قد يكون إما قام المريض بتناوله بنفسه أو عن طريق الصيدلية. لا يوجد في هذا النموذج تفاصيل حول الوقت حيث إنه يشير إلى فعل تم في الواقع.">
-			keywords = <"*medication(en)","*prescibe(en)","*dispense(en)","*administration(en)","*cessation(en)","*therapeutic good(en)","*supply(en)","*medicine(en)","*drug(en)">
-			copyright = <"© openEHR Foundation">
-			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
-
-Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
-
-There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
-			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
-		>
-		["sl"] = <
-			language = <[ISO_639-1::sl]>
-			purpose = <"*The recording of activities undertaken with regard to a medicine, vaccine or other therapeutic good and linking to the instruction if appropriate.">
-			keywords = <"*medication","*prescibe","*dispense","*administration","*cessation","*therapeutic good","*supply","*medicine","*drug">
-			copyright = <"© openEHR Foundation">
-			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
-
-Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
-
-There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.">
-			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).">
-		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"For recording details about any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.">
@@ -332,6 +308,30 @@ Not to be used for recording details about therapeutic adherence, secondary effe
 Not to be used for medication reconcilliation. Use other appropriate archetypes for this purpose.
 
 Not to be used for a formal review of an entire medication list, for example by a pharmacist. Use other appropriate archetypes for this purpose.">
+		>
+		["sl"] = <
+			language = <[ISO_639-1::sl]>
+			purpose = <"*The recording of activities undertaken with regard to a medicine, vaccine or other therapeutic good and linking to the instruction if appropriate.">
+			keywords = <"*medication","*prescibe","*dispense","*administration","*cessation","*therapeutic good","*supply","*medicine","*drug">
+			copyright = <"© openEHR Foundation">
+			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
+
+Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
+
+There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.">
+			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).">
+		>
+		["ar-sy"] = <
+			language = <[ISO_639-1::ar-sy]>
+			purpose = <"يُمَكِّن هذا الفعل من تسجيل الأفعال التي يتم تنفيذها فيما يتعلق بالأدوية. و عادة ما يكون ذلك استجابة لأمر دوائي أو وصفة دوائية, و لكنه قد يكون إما قام المريض بتناوله بنفسه أو عن طريق الصيدلية. لا يوجد في هذا النموذج تفاصيل حول الوقت حيث إنه يشير إلى فعل تم في الواقع.">
+			keywords = <"*medication(en)","*prescibe(en)","*dispense(en)","*administration(en)","*cessation(en)","*therapeutic good(en)","*supply(en)","*medicine(en)","*drug(en)">
+			copyright = <"© openEHR Foundation">
+			use = <"*For recording the planning, issuing of a prescription, dispensing, administration, cessation, suspension, completion of a medicine, vaccine or other therapeutic good . This will usually be in response to a medication order but may be administered immediately without an order at times, thus requiring recording of the administration alone (e.g. in an emergency situation). 
+
+Such a record may be made to indicate the administration of a dose, dispensing of a certain quantity or as a record of ceasing a medication. The state of the medication instruction is altered by the action taken as indicated in the Pathway definition.
+
+There is a date and time at which this ACTION took place (as there is for all ACTIONs)  and use of this archetype indicates that some action has actually occurred.(en)">
+			misuse = <"*Do not use when recording an instruction or order (use INSTRUCTION.medication).(en)">
 		>
 		["zh-cn"] = <
 			language = <[ISO_639-1::zh-cn]>
@@ -387,13 +387,13 @@ Norwegian regulations for medication management (Forskrift om legemiddelhåndter
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b55d4764e5139626f47fc7b1314a33bf">
+		["MD5-CAM-1.0.1"] = <"e94d76f6c0847fcb4ad28f41e6df3ae1">
 		["build_uid"] = <"1bb3655c-7fd6-43d2-bb93-1fe474b3dd37">
 		["revision"] = <"1.1.3">
 	>
 
 definition
-	ACTION[at0000.1] matches {    -- Medication management
+	ACTION[at0000.1] matches {    -- Vaccination management
 		ism_transition matches {
 			ISM_TRANSITION[at0109.1] matches {    -- Vaccination recommended
 				current_state matches {
@@ -917,6 +917,11 @@ definition
 							DV_COUNT matches {*}
 						}
 					}
+					ELEMENT[at0024] occurrences matches {0..1} matches {    -- Comment
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
 					ELEMENT[at0.1] occurrences matches {0..1} matches {    -- Dose description
 						value matches {
 							DV_TEXT matches {*}
@@ -927,17 +932,21 @@ definition
 							DV_BOOLEAN matches {*}
 						}
 					}
-					ELEMENT[at0024] occurrences matches {0..1} matches {    -- Comment
-						value matches {
-							DV_TEXT matches {*}
-						}
-					}
 				}
 			}
 		}
 		protocol matches {
 			ITEM_TREE[at0030] matches {    -- Tree
 				items cardinality matches {1..*; unordered} matches {
+					ELEMENT[at0103] occurrences matches {0..*} matches {    -- Order ID
+						value matches {
+							DV_IDENTIFIER matches {*}
+						}
+					}
+					allow_archetype CLUSTER[at0085] occurrences matches {0..*} matches {    -- Extension
+						include
+							archetype_id/value matches {/.*/}
+					}
 					ELEMENT[at0.8] occurrences matches {0..1} matches {    -- Series name
 						value matches {
 							DV_TEXT matches {*}
@@ -982,15 +991,6 @@ definition
 						include
 							archetype_id/value matches {/.*|openEHR-EHR-CLUSTER\.organisation\.v0/}
 					}
-					ELEMENT[at0103] occurrences matches {0..*} matches {    -- Order ID
-						value matches {
-							DV_IDENTIFIER matches {*}
-						}
-					}
-					allow_archetype CLUSTER[at0085] occurrences matches {0..*} matches {    -- Extension
-						include
-							archetype_id/value matches {/.*/}
-					}
 				}
 			}
 		}
@@ -1000,6 +1000,135 @@ ontology
 	term_definitions = <
 		["ar-sy"] = <
 			items = <
+				["at0000.1"] = <
+					text = <"*Vaccination management (en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
+				["at0109.1"] = <
+					text = <"*Vaccination recommended (en)">
+					description = <"*The medication has been recommended but no steps have been taken to initiate prescribing.(en)">
+				>
+				["at0013.1"] = <
+					text = <"*Vaccination course postponed (en)">
+					description = <"*The scheduled medication course has been postponed prior to any administration.(en)">
+				>
+				["at0012.1"] = <
+					text = <"*Vaccination course cancelled (en)">
+					description = <"*The planned course of medication has been cancelled prior to any administration.(en)">
+				>
+				["at0016.1"] = <
+					text = <"*Vaccination start date/condition set (en)">
+					description = <"*The time to start this medication, or other starting condition, has been set.(en)">
+				>
+				["at0153.1"] = <
+					text = <"*Vaccination authorised (en)">
+					description = <"*The medication has been formally authorised for use.(en)">
+				>
+				["at0148.1"] = <
+					text = <"*Vaccine prepared (en)">
+					description = <"*The medication has been physically prepared. For example: preparation of an intravenous mixture.(en)">
+				>
+				["at0020.1"] = <
+					text = <"*Vaccine name (en)">
+					description = <"*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)">
+					comment = <"*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
+It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)">
+				>
+				["at0145.1"] = <
+					text = <"*Vaccination awaiting authorisation (en)">
+					description = <"*Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.(en)">
+				>
+				["at0004.1"] = <
+					text = <"*Vaccination course commenced (en)">
+					description = <"*The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.(en)">
+				>
+				["at0005.1"] = <
+					text = <"*Vaccination reassessed (en)">
+					description = <"*The specific medication item has been reviewed, as planned. This is not intended to capture review of the whole medication list.(en)">
+				>
+				["at0006.1"] = <
+					text = <"*Vaccine dose administered (en)">
+					description = <"*A single administration of the medication has taken place.(en)">
+				>
+				["at0018.1"] = <
+					text = <"*Vaccine dose administration omitted (en)">
+					description = <"*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)">
+				>
+				["at0044.1"] = <
+					text = <"*Vaccine dose administration deferred (en)">
+					description = <"*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)">
+				>
+				["at0009.1"] = <
+					text = <"*Vaccine administrations suspended (en)">
+					description = <"*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)">
+				>
+				["at0015.1"] = <
+					text = <"*Vaccination course stopped (en)">
+					description = <"*The administration of this medication has been ceased after the first dose has been administered, but before intended completion of the course.  (en)">
+				>
+				["at0007.1"] = <
+					text = <"*Vaccination course completed (en)">
+					description = <"*The medication course has been completed as planned.(en)">
+				>
+				["at0008.1"] = <
+					text = <"*Vaccine supply delayed (en)">
+					description = <"*The prescription has not been dispensed due to a technical or pharamaceutical supply issue.(en)">
+				>
+				["at0.1"] = <
+					text = <"*Dose description (en)">
+					description = <"">
+				>
+				["at0025.1"] = <
+					text = <"*Dose number (en)">
+					description = <"*The sequence number specific to the activity being recorded.(en)">
+					comment = <"*For example: Vaccine sequence number. (en)">
+				>
+				["at0.2"] = <
+					text = <"*Appointment ID (en)">
+					description = <"">
+				>
+				["at0.4"] = <
+					text = <"*Target Disease (en)">
+					description = <"">
+				>
+				["at0.5"] = <
+					text = <"*Country of vaccination (en)">
+					description = <"">
+				>
+				["at0.6"] = <
+					text = <"*Vaccination centre (en)">
+					description = <"">
+				>
+				["at0.7"] = <
+					text = <"*Vaccination centre details (en)">
+					description = <"">
+				>
+				["at0.8"] = <
+					text = <"*Series name (en)">
+					description = <"">
+				>
+				["at0.9"] = <
+					text = <"*Series doses (en)">
+					description = <"">
+				>
+				["at0.10"] = <
+					text = <"*Series doses description (en)">
+					description = <"">
+				>
+				["at0.11"] = <
+					text = <"*Is booster (en)">
+					description = <"">
+				>
+				["at0.12"] = <
+					text = <"*Trial ID (en)">
+					description = <"">
+				>
+				["at0000"] = <
+					text = <"*Medication management(en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
 				["at0002"] = <
 					text = <"*Prescription issued(en)">
 					description = <"*A prescription has been issued for the medication.(en)">
@@ -1233,8 +1362,12 @@ Coding of the body site with a terminology is preferred, where possible.(en)">
 					description = <"*The clinical reason for the medication activity. (en)">
 					comment = <"*For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\" (en)">
 				>
+			>
+		>
+		["sl"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"*Medication management(en)">
+					text = <"*Vaccination management (en)">
 					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
 					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
 				>
@@ -1357,10 +1490,11 @@ It is strongly recommended that the 'Medication item' is coded with a terminolog
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["sl"] = <
-			items = <
+				["at0000"] = <
+					text = <"*Medication management(en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
 				["at0002"] = <
 					text = <"*Prescription issued(en)">
 					description = <"*A prescription has been issued for the medication.(en)">
@@ -1594,8 +1728,12 @@ Coding of the body site with a terminology is preferred, where possible.(en)">
 					description = <"*The clinical reason for the medication activity. (en)">
 					comment = <"*For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\" (en)">
 				>
+			>
+		>
+		["es-ar"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"*Medication management(en)">
+					text = <"*Vaccination management (en)">
 					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
 					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
 				>
@@ -1718,10 +1856,11 @@ It is strongly recommended that the 'Medication item' is coded with a terminolog
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["es-ar"] = <
-			items = <
+				["at0000"] = <
+					text = <"*Medication management(en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
 				["at0002"] = <
 					text = <"*Prescription issued(en)">
 					description = <"*A prescription has been issued for the medication.(en)">
@@ -1954,135 +2093,140 @@ Coding of the body site with a terminology is preferred, where possible.(en)">
 					text = <"*Clinical indication (en)">
 					description = <"*The clinical reason for the medication activity. (en)">
 					comment = <"*For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\" (en)">
-				>
-				["at0000.1"] = <
-					text = <"*Medication management(en)">
-					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
-					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
-				>
-				["at0109.1"] = <
-					text = <"*Vaccination recommended (en)">
-					description = <"*The medication has been recommended but no steps have been taken to initiate prescribing.(en)">
-				>
-				["at0013.1"] = <
-					text = <"*Vaccination course postponed (en)">
-					description = <"*The scheduled medication course has been postponed prior to any administration.(en)">
-				>
-				["at0012.1"] = <
-					text = <"*Vaccination course cancelled (en)">
-					description = <"*The planned course of medication has been cancelled prior to any administration.(en)">
-				>
-				["at0016.1"] = <
-					text = <"*Vaccination start date/condition set (en)">
-					description = <"*The time to start this medication, or other starting condition, has been set.(en)">
-				>
-				["at0153.1"] = <
-					text = <"*Vaccination authorised (en)">
-					description = <"*The medication has been formally authorised for use.(en)">
-				>
-				["at0148.1"] = <
-					text = <"*Vaccine prepared (en)">
-					description = <"*The medication has been physically prepared. For example: preparation of an intravenous mixture.(en)">
-				>
-				["at0020.1"] = <
-					text = <"*Vaccine name (en)">
-					description = <"*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)">
-					comment = <"*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
-It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)">
-				>
-				["at0145.1"] = <
-					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"*Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.(en)">
-				>
-				["at0004.1"] = <
-					text = <"*Vaccination course commenced (en)">
-					description = <"*The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.(en)">
-				>
-				["at0005.1"] = <
-					text = <"*Vaccination reassessed (en)">
-					description = <"*The specific medication item has been reviewed, as planned. This is not intended to capture review of the whole medication list.(en)">
-				>
-				["at0006.1"] = <
-					text = <"*Vaccine dose administered (en)">
-					description = <"*A single administration of the medication has taken place.(en)">
-				>
-				["at0018.1"] = <
-					text = <"*Vaccine dose administration omitted (en)">
-					description = <"*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)">
-				>
-				["at0044.1"] = <
-					text = <"*Vaccine dose administration deferred (en)">
-					description = <"*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)">
-				>
-				["at0009.1"] = <
-					text = <"*Vaccine administrations suspended (en)">
-					description = <"*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)">
-				>
-				["at0015.1"] = <
-					text = <"*Vaccination course stopped (en)">
-					description = <"*The administration of this medication has been ceased after the first dose has been administered, but before intended completion of the course.  (en)">
-				>
-				["at0007.1"] = <
-					text = <"*Vaccination course completed (en)">
-					description = <"*The medication course has been completed as planned.(en)">
-				>
-				["at0008.1"] = <
-					text = <"*Vaccine supply delayed (en)">
-					description = <"*The prescription has not been dispensed due to a technical or pharamaceutical supply issue.(en)">
-				>
-				["at0.1"] = <
-					text = <"*Dose description (en)">
-					description = <"">
-				>
-				["at0025.1"] = <
-					text = <"*Dose number (en)">
-					description = <"*The sequence number specific to the activity being recorded.(en)">
-					comment = <"*For example: Vaccine sequence number. (en)">
-				>
-				["at0.2"] = <
-					text = <"*Appointment ID (en)">
-					description = <"">
-				>
-				["at0.4"] = <
-					text = <"*Target Disease (en)">
-					description = <"">
-				>
-				["at0.5"] = <
-					text = <"*Country of vaccination (en)">
-					description = <"">
-				>
-				["at0.6"] = <
-					text = <"*Vaccination centre (en)">
-					description = <"">
-				>
-				["at0.7"] = <
-					text = <"*Vaccination centre details (en)">
-					description = <"">
-				>
-				["at0.8"] = <
-					text = <"*Series name (en)">
-					description = <"">
-				>
-				["at0.9"] = <
-					text = <"*Series doses (en)">
-					description = <"">
-				>
-				["at0.10"] = <
-					text = <"*Series doses description (en)">
-					description = <"">
-				>
-				["at0.11"] = <
-					text = <"*Is booster (en)">
-					description = <"">
-				>
-				["at0.12"] = <
-					text = <"*Trial ID (en)">
-					description = <"">
 				>
 			>
 		>
 		["ru"] = <
 			items = <
+				["at0000.1"] = <
+					text = <"*Vaccination management (en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
+				["at0109.1"] = <
+					text = <"*Vaccination recommended (en)">
+					description = <"*The medication has been recommended but no steps have been taken to initiate prescribing.(en)">
+				>
+				["at0013.1"] = <
+					text = <"*Vaccination course postponed (en)">
+					description = <"*The scheduled medication course has been postponed prior to any administration.(en)">
+				>
+				["at0012.1"] = <
+					text = <"*Vaccination course cancelled (en)">
+					description = <"*The planned course of medication has been cancelled prior to any administration.(en)">
+				>
+				["at0016.1"] = <
+					text = <"*Vaccination start date/condition set (en)">
+					description = <"*The time to start this medication, or other starting condition, has been set.(en)">
+				>
+				["at0153.1"] = <
+					text = <"*Vaccination authorised (en)">
+					description = <"*The medication has been formally authorised for use.(en)">
+				>
+				["at0148.1"] = <
+					text = <"*Vaccine prepared (en)">
+					description = <"*The medication has been physically prepared. For example: preparation of an intravenous mixture.(en)">
+				>
+				["at0020.1"] = <
+					text = <"*Vaccine name (en)">
+					description = <"*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)">
+					comment = <"*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
+It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)">
+				>
+				["at0145.1"] = <
+					text = <"*Vaccination awaiting authorisation (en)">
+					description = <"*Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.(en)">
+				>
+				["at0004.1"] = <
+					text = <"*Vaccination course commenced (en)">
+					description = <"*The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.(en)">
+				>
+				["at0005.1"] = <
+					text = <"*Vaccination reassessed (en)">
+					description = <"*The specific medication item has been reviewed, as planned. This is not intended to capture review of the whole medication list.(en)">
+				>
+				["at0006.1"] = <
+					text = <"*Vaccine dose administered (en)">
+					description = <"*A single administration of the medication has taken place.(en)">
+				>
+				["at0018.1"] = <
+					text = <"*Vaccine dose administration omitted (en)">
+					description = <"*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)">
+				>
+				["at0044.1"] = <
+					text = <"*Vaccine dose administration deferred (en)">
+					description = <"*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)">
+				>
+				["at0009.1"] = <
+					text = <"*Vaccine administrations suspended (en)">
+					description = <"*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)">
+				>
+				["at0015.1"] = <
+					text = <"*Vaccination course stopped (en)">
+					description = <"*The administration of this medication has been ceased after the first dose has been administered, but before intended completion of the course.  (en)">
+				>
+				["at0007.1"] = <
+					text = <"*Vaccination course completed (en)">
+					description = <"*The medication course has been completed as planned.(en)">
+				>
+				["at0008.1"] = <
+					text = <"*Vaccine supply delayed (en)">
+					description = <"*The prescription has not been dispensed due to a technical or pharamaceutical supply issue.(en)">
+				>
+				["at0.1"] = <
+					text = <"*Dose description (en)">
+					description = <"">
+				>
+				["at0025.1"] = <
+					text = <"*Dose number (en)">
+					description = <"*The sequence number specific to the activity being recorded.(en)">
+					comment = <"*For example: Vaccine sequence number. (en)">
+				>
+				["at0.2"] = <
+					text = <"*Appointment ID (en)">
+					description = <"">
+				>
+				["at0.4"] = <
+					text = <"*Target Disease (en)">
+					description = <"">
+				>
+				["at0.5"] = <
+					text = <"*Country of vaccination (en)">
+					description = <"">
+				>
+				["at0.6"] = <
+					text = <"*Vaccination centre (en)">
+					description = <"">
+				>
+				["at0.7"] = <
+					text = <"*Vaccination centre details (en)">
+					description = <"">
+				>
+				["at0.8"] = <
+					text = <"*Series name (en)">
+					description = <"">
+				>
+				["at0.9"] = <
+					text = <"*Series doses (en)">
+					description = <"">
+				>
+				["at0.10"] = <
+					text = <"*Series doses description (en)">
+					description = <"">
+				>
+				["at0.11"] = <
+					text = <"*Is booster (en)">
+					description = <"">
+				>
+				["at0.12"] = <
+					text = <"*Trial ID (en)">
+					description = <"">
+				>
+				["at0000"] = <
+					text = <"*Medication management(en)">
+					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
+					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
+				>
 				["at0002"] = <
 					text = <"*Prescription issued(en)">
 					description = <"*A prescription has been issued for the medication.(en)">
@@ -2316,134 +2460,139 @@ Coding of the body site with a terminology is preferred, where possible.(en)">
 					description = <"*The clinical reason for the medication activity. (en)">
 					comment = <"*For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\" (en)">
 				>
-				["at0000.1"] = <
-					text = <"*Medication management(en)">
-					description = <"*Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.(en)">
-					comment = <"*This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.(en)">
-				>
-				["at0109.1"] = <
-					text = <"*Vaccination recommended (en)">
-					description = <"*The medication has been recommended but no steps have been taken to initiate prescribing.(en)">
-				>
-				["at0013.1"] = <
-					text = <"*Vaccination course postponed (en)">
-					description = <"*The scheduled medication course has been postponed prior to any administration.(en)">
-				>
-				["at0012.1"] = <
-					text = <"*Vaccination course cancelled (en)">
-					description = <"*The planned course of medication has been cancelled prior to any administration.(en)">
-				>
-				["at0016.1"] = <
-					text = <"*Vaccination start date/condition set (en)">
-					description = <"*The time to start this medication, or other starting condition, has been set.(en)">
-				>
-				["at0153.1"] = <
-					text = <"*Vaccination authorised (en)">
-					description = <"*The medication has been formally authorised for use.(en)">
-				>
-				["at0148.1"] = <
-					text = <"*Vaccine prepared (en)">
-					description = <"*The medication has been physically prepared. For example: preparation of an intravenous mixture.(en)">
-				>
-				["at0020.1"] = <
-					text = <"*Vaccine name (en)">
-					description = <"*Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.(en)">
-					comment = <"*For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
-It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.(en)">
-				>
-				["at0145.1"] = <
-					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"*Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.(en)">
-				>
-				["at0004.1"] = <
-					text = <"*Vaccination course commenced (en)">
-					description = <"*The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.(en)">
-				>
-				["at0005.1"] = <
-					text = <"*Vaccination reassessed (en)">
-					description = <"*The specific medication item has been reviewed, as planned. This is not intended to capture review of the whole medication list.(en)">
-				>
-				["at0006.1"] = <
-					text = <"*Vaccine dose administered (en)">
-					description = <"*A single administration of the medication has taken place.(en)">
-				>
-				["at0018.1"] = <
-					text = <"*Vaccine dose administration omitted (en)">
-					description = <"*The administration of a medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.(en)">
-				>
-				["at0044.1"] = <
-					text = <"*Vaccine dose administration deferred (en)">
-					description = <"*Administration of a dose of mediciation has been delayed but is expected to be given as soon as possible.(en)">
-				>
-				["at0009.1"] = <
-					text = <"*Vaccine administrations suspended (en)">
-					description = <"*The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.(en)">
-				>
-				["at0015.1"] = <
-					text = <"*Vaccination course stopped (en)">
-					description = <"*The administration of this medication has been ceased after the first dose has been administered, but before intended completion of the course.  (en)">
-				>
-				["at0007.1"] = <
-					text = <"*Vaccination course completed (en)">
-					description = <"*The medication course has been completed as planned.(en)">
-				>
-				["at0008.1"] = <
-					text = <"*Vaccine supply delayed (en)">
-					description = <"*The prescription has not been dispensed due to a technical or pharamaceutical supply issue.(en)">
-				>
-				["at0.1"] = <
-					text = <"*Dose description (en)">
-					description = <"">
-				>
-				["at0025.1"] = <
-					text = <"*Dose number (en)">
-					description = <"*The sequence number specific to the activity being recorded.(en)">
-					comment = <"*For example: Vaccine sequence number. (en)">
-				>
-				["at0.2"] = <
-					text = <"*Appointment ID (en)">
-					description = <"">
-				>
-				["at0.4"] = <
-					text = <"*Target Disease (en)">
-					description = <"">
-				>
-				["at0.5"] = <
-					text = <"*Country of vaccination (en)">
-					description = <"">
-				>
-				["at0.6"] = <
-					text = <"*Vaccination centre (en)">
-					description = <"">
-				>
-				["at0.7"] = <
-					text = <"*Vaccination centre details (en)">
-					description = <"">
-				>
-				["at0.8"] = <
-					text = <"*Series name (en)">
-					description = <"">
-				>
-				["at0.9"] = <
-					text = <"*Series doses (en)">
-					description = <"">
-				>
-				["at0.10"] = <
-					text = <"*Series doses description (en)">
-					description = <"">
-				>
-				["at0.11"] = <
-					text = <"*Is booster (en)">
-					description = <"">
-				>
-				["at0.12"] = <
-					text = <"*Trial ID (en)">
-					description = <"">
-				>
 			>
 		>
 		["en"] = <
 			items = <
+				["at0000.1"] = <
+					text = <"Vaccination management">
+					description = <"Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.">
+					comment = <"This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.">
+				>
+				["at0109.1"] = <
+					text = <"Vaccination recommended">
+					description = <"The medication has been recommended but no steps have been taken to initiate prescribing.">
+				>
+				["at0013.1"] = <
+					text = <"Vaccination course postponed">
+					description = <"The scheduled medication course has been postponed prior to any administration.">
+				>
+				["at0012.1"] = <
+					text = <"Vaccination course cancelled">
+					description = <"The planned course of medication has been cancelled prior to any administration.">
+				>
+				["at0016.1"] = <
+					text = <"Vaccination start date/condition set">
+					description = <"The time to start the medication, or other starting condition, has been set.">
+				>
+				["at0153.1"] = <
+					text = <"Vaccination authorised">
+					description = <"The medication has been formally authorised for use.">
+				>
+				["at0148.1"] = <
+					text = <"Vaccine prepared">
+					description = <"The medication has been physically prepared. For example: preparation of an intravenous mixture.">
+				>
+				["at0020.1"] = <
+					text = <"Vaccine name">
+					description = <"Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.">
+					comment = <"For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
+It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.">
+				>
+				["at0145.1"] = <
+					text = <"Vaccination awaiting authorisation">
+					description = <"Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.">
+				>
+				["at0004.1"] = <
+					text = <"Vaccination course commenced">
+					description = <"The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.">
+				>
+				["at0005.1"] = <
+					text = <"Vaccination reassessed">
+					description = <"The individual medication has been reassessed, for example whether the medication should still be taken. This is not intended to capture review of the medication list.">
+				>
+				["at0006.1"] = <
+					text = <"Vaccine dose administered">
+					description = <"A single administration of the medication has taken place.">
+				>
+				["at0018.1"] = <
+					text = <"Vaccine dose administration omitted">
+					description = <"An administration of the medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.">
+				>
+				["at0044.1"] = <
+					text = <"Vaccine dose administration deferred">
+					description = <"An administration of a dose of the medication has been delayed but is expected to be given as soon as possible.">
+				>
+				["at0009.1"] = <
+					text = <"Vaccine administrations suspended">
+					description = <"The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.">
+				>
+				["at0015.1"] = <
+					text = <"Vaccination course stopped">
+					description = <"Administration of the medication has been ceased during the period of the intended course.">
+				>
+				["at0007.1"] = <
+					text = <"Vaccination course completed">
+					description = <"The medication course has been completed as planned.">
+				>
+				["at0008.1"] = <
+					text = <"Vaccine supply delayed">
+					description = <"The prescription has not been dispensed due to a technical or pharamaceutical supply issue.">
+				>
+				["at0.1"] = <
+					text = <"Dose description">
+					description = <"">
+				>
+				["at0025.1"] = <
+					text = <"Dose number">
+					description = <"The sequence number specific to the pathway step being recorded.">
+					comment = <"For example: Vaccine sequence number.">
+				>
+				["at0.2"] = <
+					text = <"Appointment ID">
+					description = <"">
+				>
+				["at0.4"] = <
+					text = <"Target Disease">
+					description = <"">
+				>
+				["at0.5"] = <
+					text = <"Country of vaccination">
+					description = <"">
+				>
+				["at0.6"] = <
+					text = <"Vaccination centre">
+					description = <"">
+				>
+				["at0.7"] = <
+					text = <"Vaccination centre details">
+					description = <"">
+				>
+				["at0.8"] = <
+					text = <"Series name">
+					description = <"">
+				>
+				["at0.9"] = <
+					text = <"Series doses">
+					description = <"">
+				>
+				["at0.10"] = <
+					text = <"Series doses description">
+					description = <"">
+				>
+				["at0.11"] = <
+					text = <"Is booster">
+					description = <"">
+				>
+				["at0.12"] = <
+					text = <"Trial ID">
+					description = <"">
+				>
+				["at0000"] = <
+					text = <"Medication management">
+					description = <"Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.">
+					comment = <"This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.">
+				>
 				["at0002"] = <
 					text = <"Prescription issued">
 					description = <"A prescription has been issued for the medication.">
@@ -2678,134 +2827,138 @@ Coding of the body site with a terminology is preferred, where possible.">
 					description = <"The clinical reason for the medication activity.">
 					comment = <"For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\"">
 				>
-				["at0000.1"] = <
-					text = <"Medication management">
-					description = <"Any activity related to the planning, scheduling, prescription management, dispensing, administration, cessation and other use of a medication, vaccine, nutritional product or other therapeutic item.">
-					comment = <"This is not limited to activities performed based on medication orders from clinicians, but could also include for example taking over the counter medication.">
-				>
-				["at0109.1"] = <
-					text = <"Vaccination recommended">
-					description = <"The medication has been recommended but no steps have been taken to initiate prescribing.">
-				>
-				["at0013.1"] = <
-					text = <"Vaccination course postponed">
-					description = <"The scheduled medication course has been postponed prior to any administration.">
-				>
-				["at0012.1"] = <
-					text = <"Vaccination course cancelled">
-					description = <"The planned course of medication has been cancelled prior to any administration.">
-				>
-				["at0016.1"] = <
-					text = <"Vaccination start date/condition set">
-					description = <"The time to start the medication, or other starting condition, has been set.">
-				>
-				["at0153.1"] = <
-					text = <"Vaccination authorised">
-					description = <"The medication has been formally authorised for use.">
-				>
-				["at0148.1"] = <
-					text = <"Vaccine prepared">
-					description = <"The medication has been physically prepared. For example: preparation of an intravenous mixture.">
-				>
-				["at0020.1"] = <
-					text = <"Vaccine name">
-					description = <"Name of the medication, vaccine or other therapeutic/prescribable item which was the focus of the activity.">
-					comment = <"For example: 'Atenolol 100mg' or 'Tenormin tablets 100mg'. 
-It is strongly recommended that the 'Medication item' is coded with a terminology capable of triggering decision support, where possible. The extent of coding may vary from the simple name of the medication item through to structured details about the actual medication pack used. Free text entry should only be used if there is no appropriate terminology available.">
-				>
-				["at0145.1"] = <
-					text = <"Vaccination awaiting authorisation">
-					description = <"Draft prescription has been prepared and is awaiting confirmation from an authorised clinician. May be used where reauthorisations are performed as a batch. This careflow_step may have a status of 'planned' or 'active', reflecting the need to to handle new orders as well as re-authorised orders.">
-				>
-				["at0004.1"] = <
-					text = <"Vaccination course commenced">
-					description = <"The medication has been taken by, or administered to, the patient for the first time. Although in some settings this significant date may be computable as the first of several administrations, in other settings, such as primary care, specific administration dates are not readily available.">
-				>
-				["at0005.1"] = <
-					text = <"Vaccination reassessed">
-					description = <"The individual medication has been reassessed, for example whether the medication should still be taken. This is not intended to capture review of the medication list.">
-				>
-				["at0006.1"] = <
-					text = <"Vaccine dose administered">
-					description = <"A single administration of the medication has taken place.">
-				>
-				["at0018.1"] = <
-					text = <"Vaccine dose administration omitted">
-					description = <"An administration of the medication has been withheld and not given. There is no expectation that it will be given later, though the next dose (if any) should be administered according to the original order.">
-				>
-				["at0044.1"] = <
-					text = <"Vaccine dose administration deferred">
-					description = <"An administration of a dose of the medication has been delayed but is expected to be given as soon as possible.">
-				>
-				["at0009.1"] = <
-					text = <"Vaccine administrations suspended">
-					description = <"The administration of the medication has been suspended until further notice. No further doses should be given until the restart date or conditions have been met. When setting the date/conditions for restart after suspending, a step from ‘Administrations suspended’ and back to 'Medication start date/condition set' should be performed.">
-				>
-				["at0015.1"] = <
-					text = <"Vaccination course stopped">
-					description = <"Administration of the medication has been ceased during the period of the intended course.">
-				>
-				["at0007.1"] = <
-					text = <"Vaccination course completed">
-					description = <"The medication course has been completed as planned.">
-				>
-				["at0008.1"] = <
-					text = <"Vaccine supply delayed">
-					description = <"The prescription has not been dispensed due to a technical or pharamaceutical supply issue.">
-				>
-				["at0.1"] = <
-					text = <"Dose description">
-					description = <"">
-				>
-				["at0025.1"] = <
-					text = <"Dose number">
-					description = <"The sequence number specific to the pathway step being recorded.">
-					comment = <"For example: Vaccine sequence number.">
-				>
-				["at0.2"] = <
-					text = <"Appointment ID">
-					description = <"">
-				>
-				["at0.4"] = <
-					text = <"Target Disease">
-					description = <"">
-				>
-				["at0.5"] = <
-					text = <"Country of vaccination">
-					description = <"">
-				>
-				["at0.6"] = <
-					text = <"Vaccination centre">
-					description = <"">
-				>
-				["at0.7"] = <
-					text = <"Vaccination centre details">
-					description = <"">
-				>
-				["at0.8"] = <
-					text = <"Series name">
-					description = <"">
-				>
-				["at0.9"] = <
-					text = <"Series doses">
-					description = <"">
-				>
-				["at0.10"] = <
-					text = <"Series doses description">
-					description = <"">
-				>
-				["at0.11"] = <
-					text = <"Is booster">
-					description = <"">
-				>
-				["at0.12"] = <
-					text = <"Trial ID">
-					description = <"">
-				>
 			>
 		>
 		["nb"] = <
 			items = <
+				["at0000.1"] = <
+					text = <"*Vaccination management (en)">
+					description = <"Detaljer om enhver legemiddelrelatert oppgave som utføres fra et legemiddel er ordinert eller rekvirert til det er utdelt eller eventuelt kassert, for eksempel bestilling, istandgjøring, administrering, ekspedering eller seponering.">
+					comment = <"Dette er ikke begrenset til aktiviteter utført på bagrunn av legemiddelordineringer fra klinikere, men kan også omfatte å ta legemidler som ikke er reseptpliktige.">
+				>
+				["at0109.1"] = <
+					text = <"*Vaccination recommended (en)">
+					description = <"Medisineringen er anbefalt, men ordinering er ikke iverksatt.">
+				>
+				["at0013.1"] = <
+					text = <"*Vaccination course postponed (en)">
+					description = <"Den planlagte medisineringen er satt på vent før den første dosen er administrert.">
+				>
+				["at0012.1"] = <
+					text = <"*Vaccination course cancelled (en)">
+					description = <"Den planlagte medisineringen er avbrutt før den første dosen er administrert.">
+				>
+				["at0016.1"] = <
+					text = <"*Vaccination start date/condition set (en)">
+					description = <"Tidspunktet eller vilkår for å starte medisineringen er satt.">
+				>
+				["at0153.1"] = <
+					text = <"*Vaccination authorised (en)">
+					description = <"Legemiddelet er formelt autorisert for bruk.">
+				>
+				["at0148.1"] = <
+					text = <"*Vaccine prepared (en)">
+					description = <"Legemiddelet er fysisk istandgjort, for eksempel istandgjøring av en intravenøs blanding.">
+				>
+				["at0020.1"] = <
+					text = <"*Vaccine name (en)">
+					description = <"Navnet på legemiddelet, vaksinen eller det medisinske forbruksmateriellet som var fokus for aktiviteten.">
+					comment = <"For eksempel: 'Atenolol 100mg' eller 'Tenormin 100mg tabletter'. Det anbefales sterkt at \"Legemiddel\" kodes med en terminologi som understøtter beslutningsstøtte der dette er mulig, f.eks. FEST. Nivå av koding kan variere fra legemiddelnavn til strukturerte detaljer om den aktuelle legemiddelforpakningen som skal brukes. Fritekst bør bare brukes om ingen passende terminologi er tilgjengelig.">
+				>
+				["at0145.1"] = <
+					text = <"*Vaccination awaiting authorisation (en)">
+					description = <"Det er forberedt et utkast for en resept, og denne avventer godkjenning av en autorisert kliniker. Kan brukes der reseptutstedelse utføres satsvis. Dette prosesstrinnet kan brukes enten med status \"planned\" eller \"active\", for å underbygge behovet for å håndtere både nye og reautoriserte ordinasjoner.">
+				>
+				["at0004.1"] = <
+					text = <"*Vaccination course commenced (en)">
+					description = <"Legemiddelet er inntatt av eller administrert til pasienten for første gang. Selv om dette i noen bruksområder som f.eks. sykehus kan utledes fra den første av en rekke administreringer, må det i andre bruksområder som f.eks. allmennpraksis spesifiseres spesifikt siden administreringer ikke dokumenteres på samme måte.">
+				>
+				["at0005.1"] = <
+					text = <"*Vaccination reassessed (en)">
+					description = <"Legemiddelet er revurdert, for eksempel for hvorvidt det fortsatt skal tas. Dette er ikke ment å omfatte gjennomgang av en legemiddelliste.">
+				>
+				["at0006.1"] = <
+					text = <"*Vaccine dose administered (en)">
+					description = <"En enkelt administrering av legemiddelet er utført.">
+				>
+				["at0018.1"] = <
+					text = <"*Vaccine dose administration omitted (en)">
+					description = <"En enkeltdose er holdt tilbake og ikke administrert (\"nullet\"). Det er ingen forventing om at den aktuelle dosen skal gis på et senere tidspunkt, men neste dose administreres i henhold til ordineringen.">
+				>
+				["at0044.1"] = <
+					text = <"*Vaccine dose administration deferred (en)">
+					description = <"Administrering av legemiddelet er utsatt/forsinket, men legemiddelet forventes administrert så raskt som mulig.">
+				>
+				["at0009.1"] = <
+					text = <"*Vaccine administrations suspended (en)">
+					description = <"Administrering av legemiddelet er satt på vent inntil videre, ordinasjonen er \"nullet\". Ingen ytterligere doser gis før kriterium eller dato for å sette medisineringen i gang igjen er møtt. Når dato eller kriterium for å ny oppstart settes, bør det gjøres et 'suspend_step' tilbake til \"Oppstartsdato satt\".">
+				>
+				["at0015.1"] = <
+					text = <"*Vaccination course stopped (en)">
+					description = <"Legemiddelet er seponert etter at første dose er administrert, men før planlagt fullførelse av ordineringen.">
+				>
+				["at0007.1"] = <
+					text = <"*Vaccination course completed (en)">
+					description = <"Medisineringen er fullført som ordinert.">
+				>
+				["at0008.1"] = <
+					text = <"*Vaccine supply delayed (en)">
+					description = <"Legemiddelet er ikke utdelt fordi det ikke er på lager enda.">
+				>
+				["at0.1"] = <
+					text = <"*Dose description (en)">
+					description = <"">
+				>
+				["at0025.1"] = <
+					text = <"*Dose number (en)">
+					description = <"Sekvensnummeret for den spesifikke handlingen som blir registrert.">
+					comment = <"For eksempel: En vaksines sekvensnummer/ nummer i en rekkefølge.">
+				>
+				["at0.2"] = <
+					text = <"*Appointment ID (en)">
+					description = <"">
+				>
+				["at0.4"] = <
+					text = <"*Target Disease (en)">
+					description = <"">
+				>
+				["at0.5"] = <
+					text = <"*Country of vaccination (en)">
+					description = <"">
+				>
+				["at0.6"] = <
+					text = <"*Vaccination centre (en)">
+					description = <"">
+				>
+				["at0.7"] = <
+					text = <"*Vaccination centre details (en)">
+					description = <"">
+				>
+				["at0.8"] = <
+					text = <"*Series name (en)">
+					description = <"">
+				>
+				["at0.9"] = <
+					text = <"*Series doses (en)">
+					description = <"">
+				>
+				["at0.10"] = <
+					text = <"*Series doses description (en)">
+					description = <"">
+				>
+				["at0.11"] = <
+					text = <"*Is booster (en)">
+					description = <"">
+				>
+				["at0.12"] = <
+					text = <"*Trial ID (en)">
+					description = <"">
+				>
+				["at0000"] = <
+					text = <"Legemiddelhåndtering">
+					description = <"Detaljer om enhver legemiddelrelatert oppgave som utføres fra et legemiddel er ordinert eller rekvirert til det er utdelt eller eventuelt kassert, for eksempel bestilling, istandgjøring, administrering, ekspedering eller seponering.">
+					comment = <"Dette er ikke begrenset til aktiviteter utført på bagrunn av legemiddelordineringer fra klinikere, men kan også omfatte å ta legemidler som ikke er reseptpliktige.">
+				>
 				["at0002"] = <
 					text = <"Resept utstedt">
 					description = <"Det er utstedt en resept for legemiddelet.">
@@ -3041,79 +3194,84 @@ It is strongly recommended that the 'Medication item' is coded with a terminolog
 Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministeringen, kan dette dataelementet brukes uten å tenke noe mer på det. Men dersom \"Klinisk indikasjon\" er registrert i både Legemiddelordinering (INSTRUCTION.medication_order) og denne Legemiddelhåndtering (ACTION.medication), må man være oppmerksom på at det kan være forskjell i registrert indikasjonen.
 ">
 				>
+			>
+		>
+		["pt-br"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"Legemiddelhåndtering">
-					description = <"Detaljer om enhver legemiddelrelatert oppgave som utføres fra et legemiddel er ordinert eller rekvirert til det er utdelt eller eventuelt kassert, for eksempel bestilling, istandgjøring, administrering, ekspedering eller seponering.">
-					comment = <"Dette er ikke begrenset til aktiviteter utført på bagrunn av legemiddelordineringer fra klinikere, men kan også omfatte å ta legemidler som ikke er reseptpliktige.">
+					text = <"*Vaccination management (en)">
+					description = <"Qualquer atividade relacionada ao planejamento, agendamento, gestão da prescrição, dispensação, administração, término e outro uso de um medicamento, vacina, produto nutricional ou outro item terapêutico.">
+					comment = <"Este não é limitado a atividades realizadas sobre solicitação de medicação de clínicos, mas também inclui por exemplo a adquisição de medicamentos de venda livre.">
 				>
 				["at0109.1"] = <
 					text = <"*Vaccination recommended (en)">
-					description = <"Medisineringen er anbefalt, men ordinering er ikke iverksatt.">
+					description = <"Medicamento foi recomendado mas nenhuma ação foi realizada para iniciar a prescrição.">
 				>
 				["at0013.1"] = <
 					text = <"*Vaccination course postponed (en)">
-					description = <"Den planlagte medisineringen er satt på vent før den første dosen er administrert.">
+					description = <"O curso planejado da medicação foi adiado antes de qualquer administração.">
 				>
 				["at0012.1"] = <
 					text = <"*Vaccination course cancelled (en)">
-					description = <"Den planlagte medisineringen er avbrutt før den første dosen er administrert.">
+					description = <"O curso planejado da medicação foi cancelado antes de qualquer administração.">
 				>
 				["at0016.1"] = <
 					text = <"*Vaccination start date/condition set (en)">
-					description = <"Tidspunktet eller vilkår for å starte medisineringen er satt.">
+					description = <"A hora de começar a medicação, ou outra condição para iniciar o tratamento foi estabelecida.">
 				>
 				["at0153.1"] = <
 					text = <"*Vaccination authorised (en)">
-					description = <"Legemiddelet er formelt autorisert for bruk.">
+					description = <"A medicação foi formalmente autorizada para uso.">
 				>
 				["at0148.1"] = <
 					text = <"*Vaccine prepared (en)">
-					description = <"Legemiddelet er fysisk istandgjort, for eksempel istandgjøring av en intravenøs blanding.">
+					description = <"A medicação foi fisicamente preparada. Por exemplo: preparo de uma mistura intravenosa.">
 				>
 				["at0020.1"] = <
 					text = <"*Vaccine name (en)">
-					description = <"Navnet på legemiddelet, vaksinen eller det medisinske forbruksmateriellet som var fokus for aktiviteten.">
-					comment = <"For eksempel: 'Atenolol 100mg' eller 'Tenormin 100mg tabletter'. Det anbefales sterkt at \"Legemiddel\" kodes med en terminologi som understøtter beslutningsstøtte der dette er mulig, f.eks. FEST. Nivå av koding kan variere fra legemiddelnavn til strukturerte detaljer om den aktuelle legemiddelforpakningen som skal brukes. Fritekst bør bare brukes om ingen passende terminologi er tilgjengelig.">
+					description = <"Nome do medicamento, vacina ou outro item terapêutico que foi o foco da atividade.">
+					comment = <"Por exemplo: \"Atenolol 100mg\" ou \"Tenormin comprimidos 100mg\". É altamente recomendável que o \"Item de medicação\" seja codificado com uma terminologia capaz de desencadear suporte à decisão, quando possível. A extensão da codificação pode variar de um simple nome do item de medicação até detalhes estruturados sobre a embalagem de medicamento usada. Entradas em texto livre devem ser usadas apenas e não houver terminologia apropriada disponível.">
 				>
 				["at0145.1"] = <
 					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"Det er forberedt et utkast for en resept, og denne avventer godkjenning av en autorisert kliniker. Kan brukes der reseptutstedelse utføres satsvis. Dette prosesstrinnet kan brukes enten med status \"planned\" eller \"active\", for å underbygge behovet for å håndtere både nye og reautoriserte ordinasjoner.">
+					description = <"Rascunho da prescrição foi preparado e está aguardando confirmação de um clínico autorizado. Pode ser usado quando reautorizações são realizadas em lote. Esta etapa do processo de cuidado pode ter um estado de \"planejado\" ou \"ativo\", refletindo a necessidade de gerir novas solicitações assim como solicitações reautorizadas.">
 				>
 				["at0004.1"] = <
 					text = <"*Vaccination course commenced (en)">
-					description = <"Legemiddelet er inntatt av eller administrert til pasienten for første gang. Selv om dette i noen bruksområder som f.eks. sykehus kan utledes fra den første av en rekke administreringer, må det i andre bruksområder som f.eks. allmennpraksis spesifiseres spesifikt siden administreringer ikke dokumenteres på samme måte.">
+					description = <"A medicação foi adquirida, ou administrada, ao paciente pela primeira vez. Embora em algumas situações esta data significativa pode ser computada como a primeira de muitas administrações, em outras, como na atenção primária, datas de administração específicas não estão prontamente disponíveis. 
+">
 				>
 				["at0005.1"] = <
 					text = <"*Vaccination reassessed (en)">
-					description = <"Legemiddelet er revurdert, for eksempel for hvorvidt det fortsatt skal tas. Dette er ikke ment å omfatte gjennomgang av en legemiddelliste.">
+					description = <"O item de medicação específico foi revisado, conforme planejado. Este não pretende capturar uma revisão da lista completa de medicação.">
 				>
 				["at0006.1"] = <
 					text = <"*Vaccine dose administered (en)">
-					description = <"En enkelt administrering av legemiddelet er utført.">
+					description = <"Dose do medicamento foi administrada.">
 				>
 				["at0018.1"] = <
 					text = <"*Vaccine dose administration omitted (en)">
-					description = <"En enkeltdose er holdt tilbake og ikke administrert (\"nullet\"). Det er ingen forventing om at den aktuelle dosen skal gis på et senere tidspunkt, men neste dose administreres i henhold til ordineringen.">
+					description = <"A administração de um medicamento foi suspensa e não realizada. Não há expectativa de que será dada mais tarde, embora a próxima dose (se houver) deva ser administrada conforme a prescrição original.">
 				>
 				["at0044.1"] = <
 					text = <"*Vaccine dose administration deferred (en)">
-					description = <"Administrering av legemiddelet er utsatt/forsinket, men legemiddelet forventes administrert så raskt som mulig.">
+					description = <"A administração de uma dose de medicamento foi adiada, mas espera-se que seja administrada o mais rápido possível.">
 				>
 				["at0009.1"] = <
 					text = <"*Vaccine administrations suspended (en)">
-					description = <"Administrering av legemiddelet er satt på vent inntil videre, ordinasjonen er \"nullet\". Ingen ytterligere doser gis før kriterium eller dato for å sette medisineringen i gang igjen er møtt. Når dato eller kriterium for å ny oppstart settes, bør det gjøres et 'suspend_step' tilbake til \"Oppstartsdato satt\".">
+					description = <"A administração do medicamento foi suspensa até nova ordem. Doses adicionais não devem ser administradas até que a data de reinício ou condições forem alcançadas. Na configuração de nova data/condições para reinício após a suspensão, deve-se realizar a etapa de suspensão de Administrações suspensas e voltar a Data do início/ Condição de início.">
 				>
 				["at0015.1"] = <
 					text = <"*Vaccination course stopped (en)">
-					description = <"Legemiddelet er seponert etter at første dose er administrert, men før planlagt fullførelse av ordineringen.">
+					description = <"A administração desta medicação foi interrompida após administração da primeira dose, mas antes de completar o curso pretendido.">
 				>
 				["at0007.1"] = <
 					text = <"*Vaccination course completed (en)">
-					description = <"Medisineringen er fullført som ordinert.">
+					description = <"O tratamento medicamentoso foi finalizado conforme previsto.">
 				>
 				["at0008.1"] = <
 					text = <"*Vaccine supply delayed (en)">
-					description = <"Legemiddelet er ikke utdelt fordi det ikke er på lager enda.">
+					description = <"A prescrição não foi aviada devido a um problema técnico ou de suprimento farmacêutico.">
 				>
 				["at0.1"] = <
 					text = <"*Dose description (en)">
@@ -3121,8 +3279,8 @@ Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministerin
 				>
 				["at0025.1"] = <
 					text = <"*Dose number (en)">
-					description = <"Sekvensnummeret for den spesifikke handlingen som blir registrert.">
-					comment = <"For eksempel: En vaksines sekvensnummer/ nummer i en rekkefølge.">
+					description = <"O número sequencial específico da atividade registrada.">
+					comment = <"*For example: Vaccine sequence number. (en)">
 				>
 				["at0.2"] = <
 					text = <"*Appointment ID (en)">
@@ -3164,10 +3322,11 @@ Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministerin
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["pt-br"] = <
-			items = <
+				["at0000"] = <
+					text = <"Gestão de medicação">
+					description = <"Qualquer atividade relacionada ao planejamento, agendamento, gestão da prescrição, dispensação, administração, término e outro uso de um medicamento, vacina, produto nutricional ou outro item terapêutico.">
+					comment = <"Este não é limitado a atividades realizadas sobre solicitação de medicação de clínicos, mas também inclui por exemplo a adquisição de medicamentos de venda livre.">
+				>
 				["at0002"] = <
 					text = <"Prescrição emitida">
 					description = <"Uma prescrição foi emitida para a medicação.">
@@ -3401,80 +3560,84 @@ Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministerin
 					description = <"*The clinical reason for the medication activity. (en)">
 					comment = <"*For example: 'Angina' or 'Pain'. Coding of the indication with a terminology is preferred, where possible. This data element allows multiple occurrences. If only an ACTION is used to record a medication indication, this data element can be used without additional consideration. However, if a clinical indication is recorded for both the Medication order INSTRUCTION and this Medication management ACTION, be aware that these indications might not be consistent.\" (en)">
 				>
+			>
+		>
+		["de"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"Gestão de medicação">
-					description = <"Qualquer atividade relacionada ao planejamento, agendamento, gestão da prescrição, dispensação, administração, término e outro uso de um medicamento, vacina, produto nutricional ou outro item terapêutico.">
-					comment = <"Este não é limitado a atividades realizadas sobre solicitação de medicação de clínicos, mas também inclui por exemplo a adquisição de medicamentos de venda livre.">
+					text = <"*Vaccination management (en)">
+					description = <"Jede Aktivität in Bezug auf die Planung, Vorbereitung, Rezeptverwaltung, Ausgabe, Verabreichung, Einnahme, Absetzung und anderer Verwendung von Arzneimitteln, Impfstoffen, Nahrungsergänzungsmitteln und anderen therapeutischen Mitteln.">
+					comment = <"Dies beschränkt sich nicht nur auf Aktivitäten, die auf der Grundlage von Arzneimittelverordnungen von Ärzten durchgeführt werden, sondern kann sich auch z.B. auf die Einnahme von freiverkäuflichen Medikamenten beziehen.">
 				>
 				["at0109.1"] = <
 					text = <"*Vaccination recommended (en)">
-					description = <"Medicamento foi recomendado mas nenhuma ação foi realizada para iniciar a prescrição.">
+					description = <"Das Arzneimittel wurde empfohlen, aber es wurden keine Schritte unternommen, um die Verschreibung/Verordnung einzuleiten.">
 				>
 				["at0013.1"] = <
 					text = <"*Vaccination course postponed (en)">
-					description = <"O curso planejado da medicação foi adiado antes de qualquer administração.">
+					description = <"Die geplante Arzneimittelbehandlung wurde vor der Verabreichung verschoben.">
 				>
 				["at0012.1"] = <
 					text = <"*Vaccination course cancelled (en)">
-					description = <"O curso planejado da medicação foi cancelado antes de qualquer administração.">
+					description = <"Die geplante Arzneimittelbehandlung wurde vor der Verabreichung abgesagt.">
 				>
 				["at0016.1"] = <
 					text = <"*Vaccination start date/condition set (en)">
-					description = <"A hora de começar a medicação, ou outra condição para iniciar o tratamento foi estabelecida.">
+					description = <"Das Startdatum der Arzneimittelanwendung oder andere Startbedingungen wurden festgelegt.">
 				>
 				["at0153.1"] = <
 					text = <"*Vaccination authorised (en)">
-					description = <"A medicação foi formalmente autorizada para uso.">
+					description = <"Das Arzneimittel ist offiziell zur Anwendung genehmigt.">
 				>
 				["at0148.1"] = <
 					text = <"*Vaccine prepared (en)">
-					description = <"A medicação foi fisicamente preparada. Por exemplo: preparo de uma mistura intravenosa.">
+					description = <"Das Arzneimittel wurde zubereitet. Zum Beispiel: Zubereitung einer intravenösen Mischung.">
 				>
 				["at0020.1"] = <
 					text = <"*Vaccine name (en)">
-					description = <"Nome do medicamento, vacina ou outro item terapêutico que foi o foco da atividade.">
-					comment = <"Por exemplo: \"Atenolol 100mg\" ou \"Tenormin comprimidos 100mg\". É altamente recomendável que o \"Item de medicação\" seja codificado com uma terminologia capaz de desencadear suporte à decisão, quando possível. A extensão da codificação pode variar de um simple nome do item de medicação até detalhes estruturados sobre a embalagem de medicamento usada. Entradas em texto livre devem ser usadas apenas e não houver terminologia apropriada disponível.">
+					description = <"Name des Arzneimittels, eines Impfstoffs oder eines anderen therapeutischen Mittels, welches im Mittelpunkt der Aktivität steht.">
+					comment = <"Zum Beispiel: \"Atenolol 100 mg\" oder \"Tenormin Tabletten 100 mg\".
+Es wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminologie kodiert wird, die nach Möglichkeit eine Entscheidungsunterstützung auslösen kann. Der Umfang der Kodierung kann vom einfachen Namen des Arzneimittels bis hin zu strukturierten Details über die tatsächlich verwendete Medikamentenpackung variieren. Die Freitext-Eingabe sollte nur dann verwendet werden, wenn keine entsprechende Terminologie vorhanden ist.">
 				>
 				["at0145.1"] = <
 					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"Rascunho da prescrição foi preparado e está aguardando confirmação de um clínico autorizado. Pode ser usado quando reautorizações são realizadas em lote. Esta etapa do processo de cuidado pode ter um estado de \"planejado\" ou \"ativo\", refletindo a necessidade de gerir novas solicitações assim como solicitações reautorizadas.">
+					description = <"Der Rezeptentwurf wurde erstellt und wartet auf die Bestätigung durch einen autorisierten Arzt. Kann auch verwendet werden, wenn die Re-autorisierung gebündelt erfolgt. Dieser \"careflow_step\" hat den Status \"geplant\" oder \"aktiv\", was die Notwendigkeit widerspiegelt, sowohl Neuaufträge als auch erneut autorisierte Aufträge zu bearbeiten.">
 				>
 				["at0004.1"] = <
 					text = <"*Vaccination course commenced (en)">
-					description = <"A medicação foi adquirida, ou administrada, ao paciente pela primeira vez. Embora em algumas situações esta data significativa pode ser computada como a primeira de muitas administrações, em outras, como na atenção primária, datas de administração específicas não estão prontamente disponíveis. 
-">
+					description = <"Das Arzneimittel wurde zum ersten Mal von dem Patienten eingenommen oder ihm verabreicht. Obwohl in einigen Situationen das relevante Datum als erste von mehreren Anwendungen errechenbar ist, kann es in der Grundversorgung sein, dass genaue Verabreichungszeit nicht ohne weiteres verfügbar ist.">
 				>
 				["at0005.1"] = <
 					text = <"*Vaccination reassessed (en)">
-					description = <"O item de medicação específico foi revisado, conforme planejado. Este não pretende capturar uma revisão da lista completa de medicação.">
+					description = <"Das individuelle Arzneimittel wurde neu bewertet, beispielsweise ob das Arzneimittel noch angewendet werden soll. Eine Überprüfung der Arzneimittelliste soll nicht durchgeführt werden.">
 				>
 				["at0006.1"] = <
 					text = <"*Vaccine dose administered (en)">
-					description = <"Dose do medicamento foi administrada.">
+					description = <"Eine einzelne Verabreichung des Arzneimittels ist erfolgt.">
 				>
 				["at0018.1"] = <
 					text = <"*Vaccine dose administration omitted (en)">
-					description = <"A administração de um medicamento foi suspensa e não realizada. Não há expectativa de que será dada mais tarde, embora a próxima dose (se houver) deva ser administrada conforme a prescrição original.">
+					description = <"Eine Gabe des Arzneimittels wurde zurückgehalten und nicht gegeben. Es besteht keine Erwartung, dass sie später verabreicht wird, obwohl die nächste Dosis (falls es eine gibt) gemäß der ursprünglichen Verordnung verabreicht werden sollte.">
 				>
 				["at0044.1"] = <
 					text = <"*Vaccine dose administration deferred (en)">
-					description = <"A administração de uma dose de medicamento foi adiada, mas espera-se que seja administrada o mais rápido possível.">
+					description = <"Die Verabreichung einer Dosis hat sich verzögert, wird aber so schnell wie möglich erfolgen.">
 				>
 				["at0009.1"] = <
 					text = <"*Vaccine administrations suspended (en)">
-					description = <"A administração do medicamento foi suspensa até nova ordem. Doses adicionais não devem ser administradas até que a data de reinício ou condições forem alcançadas. Na configuração de nova data/condições para reinício após a suspensão, deve-se realizar a etapa de suspensão de Administrações suspensas e voltar a Data do início/ Condição de início.">
+					description = <"Die Verabreichung des Arzneimittels wurde bis zum Erhalt weiterer Informationen ausgesetzt. Es sollten keine weiteren Dosen, bis zur Bekanntgabe des neuen Startdatums oder bis die Bedingungen erfüllt sind, verabreicht werden. Wenn Sie das Datum/ die Voraussetzungen für den Neustart nach dem Aussetzen festlegen, sollte ein Schritt von \"Verabreichung wurde ausgesetzt\" und zurück zu \"Arzneimittel Startdatum/Voraussetzung\" ausgeführt werden.">
 				>
 				["at0015.1"] = <
 					text = <"*Vaccination course stopped (en)">
-					description = <"A administração desta medicação foi interrompida após administração da primeira dose, mas antes de completar o curso pretendido.">
+					description = <"Die Verabreichung des Arzneimittels wurde während der Dauer der geplanten Behandlung eingestellt.">
 				>
 				["at0007.1"] = <
 					text = <"*Vaccination course completed (en)">
-					description = <"O tratamento medicamentoso foi finalizado conforme previsto.">
+					description = <"Die medikamentöse Behandlung wurde, wie geplant, beendet.">
 				>
 				["at0008.1"] = <
 					text = <"*Vaccine supply delayed (en)">
-					description = <"A prescrição não foi aviada devido a um problema técnico ou de suprimento farmacêutico.">
+					description = <"Das Rezept wurde aufgrund einer technischen oder pharmazeutischen Störung nicht ausgegeben.">
 				>
 				["at0.1"] = <
 					text = <"*Dose description (en)">
@@ -3482,8 +3645,8 @@ Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministerin
 				>
 				["at0025.1"] = <
 					text = <"*Dose number (en)">
-					description = <"O número sequencial específico da atividade registrada.">
-					comment = <"*For example: Vaccine sequence number. (en)">
+					description = <"Die spezifische Sequenznummer des Prozessschritts wird erfasst.">
+					comment = <"Zum Beispiel: Impfsequenznummer.">
 				>
 				["at0.2"] = <
 					text = <"*Appointment ID (en)">
@@ -3525,10 +3688,11 @@ Dersom bare denne arketypen blir brukt for å dokumentere legemiddeladministerin
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["de"] = <
-			items = <
+				["at0000"] = <
+					text = <"Arzneimittelanwendung">
+					description = <"Jede Aktivität in Bezug auf die Planung, Vorbereitung, Rezeptverwaltung, Ausgabe, Verabreichung, Einnahme, Absetzung und anderer Verwendung von Arzneimitteln, Impfstoffen, Nahrungsergänzungsmitteln und anderen therapeutischen Mitteln.">
+					comment = <"Dies beschränkt sich nicht nur auf Aktivitäten, die auf der Grundlage von Arzneimittelverordnungen von Ärzten durchgeführt werden, sondern kann sich auch z.B. auf die Einnahme von freiverkäuflichen Medikamenten beziehen.">
+				>
 				["at0002"] = <
 					text = <"Rezept ausgestellt">
 					description = <"Für das Arzneimittel wurde ein Rezept ausgestellt.">
@@ -3762,80 +3926,87 @@ Es wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminol
 					description = <"Der klinische Grund für die Aktivität mit dem Arzneimittel.">
 					comment = <"Zum Beispiel: \"Angina\" oder \"Schmerz\". Die Codierung der Indikation mit einer Terminologie wird nach Möglichkeit bevorzugt. Dieses Datenelement ermöglicht mehrere Vorkommen. Wenn nur ein AKTION-Archetyp zur Aufzeichnung einer Medikamentenindikation verwendet wird, kann dieses Datenelement ohne zusätzliche Überlegungen verwendet werden. Wenn jedoch eine klinische Indikation sowohl im INSTRUCTION-Archetyp zur Verordnung von Arzneimittel als auch im AKTION-Archetyp zur Medikamentenanwendung aufgezeichnet wird, beachten Sie, dass diese Indikationen möglicherweise nicht konsistent sind.">
 				>
+			>
+		>
+		["sv"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"Arzneimittelanwendung">
-					description = <"Jede Aktivität in Bezug auf die Planung, Vorbereitung, Rezeptverwaltung, Ausgabe, Verabreichung, Einnahme, Absetzung und anderer Verwendung von Arzneimitteln, Impfstoffen, Nahrungsergänzungsmitteln und anderen therapeutischen Mitteln.">
-					comment = <"Dies beschränkt sich nicht nur auf Aktivitäten, die auf der Grundlage von Arzneimittelverordnungen von Ärzten durchgeführt werden, sondern kann sich auch z.B. auf die Einnahme von freiverkäuflichen Medikamenten beziehen.">
+					text = <"*Vaccination management (en)">
+					description = <"Alla aktiviteter relaterade till planering, schemaläggning, recepthantering, utdelning, administrering, upphörande, vaccin, näringsprodukt och annan användning av ett läkemedel eller annan behandlings produkt.">
+					comment = <"Detta är inte begränsat till aktiviteter som utförs bara baserat på remiss på läkemedel från kliniker, utan kan också inkludera till exempel övertagande av partikelräknare medicinering.">
 				>
 				["at0109.1"] = <
 					text = <"*Vaccination recommended (en)">
-					description = <"Das Arzneimittel wurde empfohlen, aber es wurden keine Schritte unternommen, um die Verschreibung/Verordnung einzuleiten.">
+					description = <"Läkemedlet har rekommenderats men inga åtgärder har vidtagits för att börja med läkemedelsförskrivning.">
 				>
 				["at0013.1"] = <
 					text = <"*Vaccination course postponed (en)">
-					description = <"Die geplante Arzneimittelbehandlung wurde vor der Verabreichung verschoben.">
+					description = <"Den schemalagda läkemedelskursen har skjutits upp före administrering.">
 				>
 				["at0012.1"] = <
 					text = <"*Vaccination course cancelled (en)">
-					description = <"Die geplante Arzneimittelbehandlung wurde vor der Verabreichung abgesagt.">
+					description = <"Den planerade medicineringen har avbrutits före administrering.">
 				>
 				["at0016.1"] = <
 					text = <"*Vaccination start date/condition set (en)">
-					description = <"Das Startdatum der Arzneimittelanwendung oder andere Startbedingungen wurden festgelegt.">
+					description = <"Tiden för att starta medicinen, eller annat starttillstånd, har ställts in.">
 				>
 				["at0153.1"] = <
 					text = <"*Vaccination authorised (en)">
-					description = <"Das Arzneimittel ist offiziell zur Anwendung genehmigt.">
+					description = <"Läkemedlet har formellt godkänts för användning.">
 				>
 				["at0148.1"] = <
 					text = <"*Vaccine prepared (en)">
-					description = <"Das Arzneimittel wurde zubereitet. Zum Beispiel: Zubereitung einer intravenösen Mischung.">
+					description = <"Läkemedlet har förberetts fysiskt. Till exempel: beredning av en intravenös blandning.">
 				>
 				["at0020.1"] = <
 					text = <"*Vaccine name (en)">
-					description = <"Name des Arzneimittels, eines Impfstoffs oder eines anderen therapeutischen Mittels, welches im Mittelpunkt der Aktivität steht.">
-					comment = <"Zum Beispiel: \"Atenolol 100 mg\" oder \"Tenormin Tabletten 100 mg\".
-Es wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminologie kodiert wird, die nach Möglichkeit eine Entscheidungsunterstützung auslösen kann. Der Umfang der Kodierung kann vom einfachen Namen des Arzneimittels bis hin zu strukturierten Details über die tatsächlich verwendete Medikamentenpackung variieren. Die Freitext-Eingabe sollte nur dann verwendet werden, wenn keine entsprechende Terminologie vorhanden ist.">
+					description = <"Namnet på medicinen, vaccinet eller andra behandlings/ förskrivningsbara föremål som var fokus för aktiviteten.">
+					comment = <"Till exempel: 'Atenolol 100 mg' eller 'Tenormin tabletter 100 mg'.
+Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminologi som kan trigga igång beslutsstödet, där det är möjligt. Kodningens omfattning kan variera från det enkla namnet på läkemedelsartikeln till strukturerade detaljer om det faktiska läkemedelspaket som används. Fri textinmatning bör endast användas om det inte finns någon lämplig terminologi tillgänglig.">
 				>
 				["at0145.1"] = <
 					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"Der Rezeptentwurf wurde erstellt und wartet auf die Bestätigung durch einen autorisierten Arzt. Kann auch verwendet werden, wenn die Re-autorisierung gebündelt erfolgt. Dieser \"careflow_step\" hat den Status \"geplant\" oder \"aktiv\", was die Notwendigkeit widerspiegelt, sowohl Neuaufträge als auch erneut autorisierte Aufträge zu bearbeiten.">
+					description = <"Utkast till förskrivning/recept har utarbetats och väntar på bekräftelse från en auktoriserad läkare. Kan användas där auktorisationer utförs som en uppsättning. Denna careflow_step kan ha statusen \"planerad\" eller \"aktiv\", vilket återspeglar behovet av att hantera nya ordination såväl som obehöriga ordination.
+">
 				>
 				["at0004.1"] = <
 					text = <"*Vaccination course commenced (en)">
-					description = <"Das Arzneimittel wurde zum ersten Mal von dem Patienten eingenommen oder ihm verabreicht. Obwohl in einigen Situationen das relevante Datum als erste von mehreren Anwendungen errechenbar ist, kann es in der Grundversorgung sein, dass genaue Verabreichungszeit nicht ohne weiteres verfügbar ist.">
+					description = <"Läkemedlet har börjats användas eller administrerats till patienten för första gången. i vissa delar av sjukvården registrering av detta betydelsefulla datum räknas som första administrations uppgift. i andra delar såsom primärvård räknas inte det som det tillgängliga specifika administrationsdatum.">
 				>
 				["at0005.1"] = <
 					text = <"*Vaccination reassessed (en)">
-					description = <"Das individuelle Arzneimittel wurde neu bewertet, beispielsweise ob das Arzneimittel noch angewendet werden soll. Eine Überprüfung der Arzneimittelliste soll nicht durchgeführt werden.">
+					description = <"Det enskilda läkemedlet har omvärderats, till exempel om medicinen fortfarande ska tas av patienten. Detta är inte avsett att fånga en översyn av läkemedelslistan.">
 				>
 				["at0006.1"] = <
 					text = <"*Vaccine dose administered (en)">
-					description = <"Eine einzelne Verabreichung des Arzneimittels ist erfolgt.">
+					description = <"En enda administrering av läkemedlet har ägt rum.">
 				>
 				["at0018.1"] = <
 					text = <"*Vaccine dose administration omitted (en)">
-					description = <"Eine Gabe des Arzneimittels wurde zurückgehalten und nicht gegeben. Es besteht keine Erwartung, dass sie später verabreicht wird, obwohl die nächste Dosis (falls es eine gibt) gemäß der ursprünglichen Verordnung verabreicht werden sollte.">
+					description = <"En administrering av läkemedlets dos har avbrutits. Det förväntas inte att det kommer att utföras klart senare heller, även om det skulle göras enligt den ursprungliga ordinationen.">
 				>
 				["at0044.1"] = <
 					text = <"*Vaccine dose administration deferred (en)">
-					description = <"Die Verabreichung einer Dosis hat sich verzögert, wird aber so schnell wie möglich erfolgen.">
+					description = <"En dos av läkemedlet har försenats men förväntas ges så snart som möjligt.">
 				>
 				["at0009.1"] = <
 					text = <"*Vaccine administrations suspended (en)">
-					description = <"Die Verabreichung des Arzneimittels wurde bis zum Erhalt weiterer Informationen ausgesetzt. Es sollten keine weiteren Dosen, bis zur Bekanntgabe des neuen Startdatums oder bis die Bedingungen erfüllt sind, verabreicht werden. Wenn Sie das Datum/ die Voraussetzungen für den Neustart nach dem Aussetzen festlegen, sollte ein Schritt von \"Verabreichung wurde ausgesetzt\" und zurück zu \"Arzneimittel Startdatum/Voraussetzung\" ausgeführt werden.">
+					description = <"Administreringen av läkemedlet har avbrutits tills vidare. Inga ytterligare doser ska ges förrän omstartdatumet är bestämt eller villkoren har uppfyllts. När du ställer in datum / villkor för omstart efter avstängning, ska gå från steg 'Administrationer avbryts' tillbaka till 'Läkemedelsstartdatum / tillståndssätt' utföras.
+">
 				>
 				["at0015.1"] = <
 					text = <"*Vaccination course stopped (en)">
-					description = <"Die Verabreichung des Arzneimittels wurde während der Dauer der geplanten Behandlung eingestellt.">
+					description = <"Administreringen av läkemedlet har upphört under den planerade kur perioden.
+">
 				>
 				["at0007.1"] = <
 					text = <"*Vaccination course completed (en)">
-					description = <"Die medikamentöse Behandlung wurde, wie geplant, beendet.">
+					description = <"Läkemedelskuren har slutförts som planerat.">
 				>
 				["at0008.1"] = <
 					text = <"*Vaccine supply delayed (en)">
-					description = <"Das Rezept wurde aufgrund einer technischen oder pharmazeutischen Störung nicht ausgegeben.">
+					description = <"Receptet har inte delats ut på grund av ett tekniskt eller farmaceutiskt problem.">
 				>
 				["at0.1"] = <
 					text = <"*Dose description (en)">
@@ -3843,8 +4014,9 @@ Es wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminol
 				>
 				["at0025.1"] = <
 					text = <"*Dose number (en)">
-					description = <"Die spezifische Sequenznummer des Prozessschritts wird erfasst.">
-					comment = <"Zum Beispiel: Impfsequenznummer.">
+					description = <"Sekvensnumret som är specifikt för sökvägen">
+					comment = <"Till exempel: Vaccinsekvensnummer.
+">
 				>
 				["at0.2"] = <
 					text = <"*Appointment ID (en)">
@@ -3886,10 +4058,11 @@ Es wird dringend empfohlen, dass das Element \"Arzneimittel\" mit einer Terminol
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["sv"] = <
-			items = <
+				["at0000"] = <
+					text = <"Hantering av läkemedel">
+					description = <"Alla aktiviteter relaterade till planering, schemaläggning, recepthantering, utdelning, administrering, upphörande, vaccin, näringsprodukt och annan användning av ett läkemedel eller annan behandlings produkt.">
+					comment = <"Detta är inte begränsat till aktiviteter som utförs bara baserat på remiss på läkemedel från kliniker, utan kan också inkludera till exempel övertagande av partikelräknare medicinering.">
+				>
 				["at0002"] = <
 					text = <"Recept utfärdat">
 					description = <"Ett recept har utfärdats för medicinering.">
@@ -4136,83 +4309,84 @@ Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminol
 					description = <"Den kliniska orsaken till läkemedelsaktiviteten.">
 					comment = <"Till exempel: 'Angina' eller 'Pain'. Kodning av indikationen med en terminologi rekommenderas. självklart där det går att hitta terminologibindning. Detta dataelement tillåter flera händelser. Om endast en ACTION används för att registrera en medicin indikation kan detta dataelement användas utan adderande hänsyn. Men om en klinisk indikation registreras för både INSTRUKTIONEN för läkemedelsbeställningen och ACTION för läkemedelshantering, var medveten om att dessa indikationer kanske inte är konsekventa. \"">
 				>
+			>
+		>
+		["zh-cn"] = <
+			items = <
 				["at0000.1"] = <
-					text = <"Hantering av läkemedel">
-					description = <"Alla aktiviteter relaterade till planering, schemaläggning, recepthantering, utdelning, administrering, upphörande, vaccin, näringsprodukt och annan användning av ett läkemedel eller annan behandlings produkt.">
-					comment = <"Detta är inte begränsat till aktiviteter som utförs bara baserat på remiss på läkemedel från kliniker, utan kan också inkludera till exempel övertagande av partikelräknare medicinering.">
+					text = <"*Vaccination management (en)">
+					description = <"任何与药物、疫苗、营养产品/制品或其他治疗类制剂（therapeutic item）的计划[编制]、排程/安排、处方管理、配发、施用/给药、停止/停用和其他使用情况相关的活动。又称为用药管理。">
+					comment = <"这不仅限于根据临床医生的药物医嘱所执行/开展的活动，还可以包括服用非处方药物之类的情况。">
 				>
 				["at0109.1"] = <
 					text = <"*Vaccination recommended (en)">
-					description = <"Läkemedlet har rekommenderats men inga åtgärder har vidtagits för att börja med läkemedelsförskrivning.">
+					description = <"已经推荐了相应的药物，但尚未采取任何的措施/步骤来启动处方开立的过程。">
 				>
 				["at0013.1"] = <
 					text = <"*Vaccination course postponed (en)">
-					description = <"Den schemalagda läkemedelskursen har skjutits upp före administrering.">
+					description = <"在任何的施用/给药之前，已经推迟了已排程/安排的药物治疗过程。">
 				>
 				["at0012.1"] = <
 					text = <"*Vaccination course cancelled (en)">
-					description = <"Den planerade medicineringen har avbrutits före administrering.">
+					description = <"在任何的施用/给药之前，已经取消了已计划的药物治疗过程。">
 				>
 				["at0016.1"] = <
 					text = <"*Vaccination start date/condition set (en)">
-					description = <"Tiden för att starta medicinen, eller annat starttillstånd, har ställts in.">
+					description = <"已经设定开始用药的时间或其他的起始/开始条件。">
 				>
 				["at0153.1"] = <
 					text = <"*Vaccination authorised (en)">
-					description = <"Läkemedlet har formellt godkänts för användning.">
+					description = <"已经正式授权使用相应的药物。">
 				>
 				["at0148.1"] = <
 					text = <"*Vaccine prepared (en)">
-					description = <"Läkemedlet har förberetts fysiskt. Till exempel: beredning av en intravenös blandning.">
+					description = <"已经实际准备好了相应的药物。 例如：配制静脉注射混合液。">
 				>
 				["at0020.1"] = <
 					text = <"*Vaccine name (en)">
-					description = <"Namnet på medicinen, vaccinet eller andra behandlings/ förskrivningsbara föremål som var fokus för aktiviteten.">
-					comment = <"Till exempel: 'Atenolol 100 mg' eller 'Tenormin tabletter 100 mg'.
-Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminologi som kan trigga igång beslutsstödet, där det är möjligt. Kodningens omfattning kan variera från det enkla namnet på läkemedelsartikeln till strukturerade detaljer om det faktiska läkemedelspaket som används. Fri textinmatning bör endast användas om det inte finns någon lämplig terminologi tillgänglig.">
+					description = <"作为活动关注焦点的药物、疫苗或其他治疗项/处方项的名称。">
+					comment = <"例如：“阿替洛尔 100mg”或“特诺明片 100mg”。
+强烈建议尽可能采用能够触发决策支持手段的术语集来编码“用药项”（Medication item）。编码的程度/范围可能各不相同，包括从用药项简称到关于实际使用的药物包装的结构化详情。只有在没有合适的术语集可用的情况下才应当采用自由文本录入的方式。">
 				>
 				["at0145.1"] = <
 					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"Utkast till förskrivning/recept har utarbetats och väntar på bekräftelse från en auktoriserad läkare. Kan användas där auktorisationer utförs som en uppsättning. Denna careflow_step kan ha statusen \"planerad\" eller \"aktiv\", vilket återspeglar behovet av att hantera nya ordination såväl som obehöriga ordination.
-">
+					description = <"已经准备/书写好了处方草稿，正在等待授权临床医务人员的确认。可以用于批量执行重新授权的情况。照护服务流程步骤（careflow_step）的状态可能是“已计划”或“有效”，反映的则是需要处理新的医嘱以及重新授权的医嘱。">
 				>
 				["at0004.1"] = <
 					text = <"*Vaccination course commenced (en)">
-					description = <"Läkemedlet har börjats användas eller administrerats till patienten för första gången. i vissa delar av sjukvården registrering av detta betydelsefulla datum räknas som första administrations uppgift. i andra delar såsom primärvård räknas inte det som det tillgängliga specifika administrationsdatum.">
+					description = <"患者已经首次服用相应的药物，或者说已经对其进行了首次的施用/给药。 尽管在某些场所环境下，这一重要的日期可以作为多次施用/给药之中的第一次而用于计算，而在其他的场所环境下，如初级照护服务（基层医疗服务），具体的施用/给药日期并不容易获得。">
 				>
 				["at0005.1"] = <
 					text = <"*Vaccination reassessed (en)">
-					description = <"Det enskilda läkemedlet har omvärderats, till exempel om medicinen fortfarande ska tas av patienten. Detta är inte avsett att fånga en översyn av läkemedelslistan.">
+					description = <"已经重新评估了相应的具体药物，如是否仍然应当服用该药物。 这一节点并非旨在用于采集药物清单的审核情况。">
 				>
 				["at0006.1"] = <
 					text = <"*Vaccine dose administered (en)">
-					description = <"En enda administrering av läkemedlet har ägt rum.">
+					description = <"已经进行了单独一次的药物施用/给药。">
 				>
 				["at0018.1"] = <
 					text = <"*Vaccine dose administration omitted (en)">
-					description = <"En administrering av läkemedlets dos har avbrutits. Det förväntas inte att det kommer att utföras klart senare heller, även om det skulle göras enligt den ursprungliga ordinationen.">
+					description = <"已经予以省略/扣除而并未给予的施用/给药。 虽说应该按照原始的医嘱来施用/给予下次剂量的药物（如果有的话），但并不期望后续会再施用/给予所省略/扣除的剂量。">
 				>
 				["at0044.1"] = <
 					text = <"*Vaccine dose administration deferred (en)">
-					description = <"En dos av läkemedlet har försenats men förväntas ges så snart som möjligt.">
+					description = <"已经推迟一剂药物的施用/给药，但预计会尽快施用/给药。">
 				>
 				["at0009.1"] = <
 					text = <"*Vaccine administrations suspended (en)">
-					description = <"Administreringen av läkemedlet har avbrutits tills vidare. Inga ytterligare doser ska ges förrän omstartdatumet är bestämt eller villkoren har uppfyllts. När du ställer in datum / villkor för omstart efter avstängning, ska gå från steg 'Administrationer avbryts' tillbaka till 'Läkemedelsstartdatum / tillståndssätt' utföras.
-">
+					description = <"已经暂停了相应药物的施用/给药，直至另行通知。 在重新开始日期之前或满足种种条件之前，不应再进行给予更多的剂量药物。 在设置暂停之后的重新开始日期/条件时，应当执行从“已暂停的施用/给药”（Administrations suspended）返回到“已设定的用药开始日期/条件”（Medication start date/condition set）的步骤。">
 				>
 				["at0015.1"] = <
 					text = <"*Vaccination course stopped (en)">
-					description = <"Administreringen av läkemedlet har upphört under den planerade kur perioden.
-">
+					description = <"在预定的治疗过程（疗程）期间，已经停止了相应药物的施用/给药。">
 				>
 				["at0007.1"] = <
 					text = <"*Vaccination course completed (en)">
-					description = <"Läkemedelskuren har slutförts som planerat.">
+					description = <"已经按计划完成了相应的药物治疗过程。">
 				>
 				["at0008.1"] = <
 					text = <"*Vaccine supply delayed (en)">
-					description = <"Receptet har inte delats ut på grund av ett tekniskt eller farmaceutiskt problem.">
+					description = <"由于技术或药品供应问题，目前尚未配发相应的处方[药物]。">
 				>
 				["at0.1"] = <
 					text = <"*Dose description (en)">
@@ -4220,9 +4394,8 @@ Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminol
 				>
 				["at0025.1"] = <
 					text = <"*Dose number (en)">
-					description = <"Sekvensnumret som är specifikt för sökvägen">
-					comment = <"Till exempel: Vaccinsekvensnummer.
-">
+					description = <"专门针对当前所记录的路径步骤的顺序编号/序列号/序号。">
+					comment = <"例如：疫苗序列号。">
 				>
 				["at0.2"] = <
 					text = <"*Appointment ID (en)">
@@ -4264,10 +4437,11 @@ Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminol
 					text = <"*Trial ID (en)">
 					description = <"">
 				>
-			>
-		>
-		["zh-cn"] = <
-			items = <
+				["at0000"] = <
+					text = <"药物管理">
+					description = <"任何与药物、疫苗、营养产品/制品或其他治疗类制剂（therapeutic item）的计划[编制]、排程/安排、处方管理、配发、施用/给药、停止/停用和其他使用情况相关的活动。又称为用药管理。">
+					comment = <"这不仅限于根据临床医生的药物医嘱所执行/开展的活动，还可以包括服用非处方药物之类的情况。">
+				>
 				["at0002"] = <
 					text = <"已签发的处方">
 					description = <"已经签发/开出了相应药物的处方。">
@@ -4501,130 +4675,6 @@ Det rekommenderas starkt att ”Läkemedelsartikeln” är kodad med en terminol
 					text = <"临床适应证">
 					description = <"用药活性的临床原因。">
 					comment = <"例如：“心绞痛”或“疼痛”。 最好尽可能采用术语集来编码适应证。此数据元允许多次重复出现。 如果仅仅利用行动（ACTION）来记录药物适应证，则可直接采用这一数据元，而无需做其他的考虑。不过，如果药物医嘱指令（INSTRUCTION）和当前药物管理行动（ACTION）同时都记录了临床适应证，则应当注意两处的适应证可能并不一致。">
-				>
-				["at0000.1"] = <
-					text = <"药物管理">
-					description = <"任何与药物、疫苗、营养产品/制品或其他治疗类制剂（therapeutic item）的计划[编制]、排程/安排、处方管理、配发、施用/给药、停止/停用和其他使用情况相关的活动。又称为用药管理。">
-					comment = <"这不仅限于根据临床医生的药物医嘱所执行/开展的活动，还可以包括服用非处方药物之类的情况。">
-				>
-				["at0109.1"] = <
-					text = <"*Vaccination recommended (en)">
-					description = <"已经推荐了相应的药物，但尚未采取任何的措施/步骤来启动处方开立的过程。">
-				>
-				["at0013.1"] = <
-					text = <"*Vaccination course postponed (en)">
-					description = <"在任何的施用/给药之前，已经推迟了已排程/安排的药物治疗过程。">
-				>
-				["at0012.1"] = <
-					text = <"*Vaccination course cancelled (en)">
-					description = <"在任何的施用/给药之前，已经取消了已计划的药物治疗过程。">
-				>
-				["at0016.1"] = <
-					text = <"*Vaccination start date/condition set (en)">
-					description = <"已经设定开始用药的时间或其他的起始/开始条件。">
-				>
-				["at0153.1"] = <
-					text = <"*Vaccination authorised (en)">
-					description = <"已经正式授权使用相应的药物。">
-				>
-				["at0148.1"] = <
-					text = <"*Vaccine prepared (en)">
-					description = <"已经实际准备好了相应的药物。 例如：配制静脉注射混合液。">
-				>
-				["at0020.1"] = <
-					text = <"*Vaccine name (en)">
-					description = <"作为活动关注焦点的药物、疫苗或其他治疗项/处方项的名称。">
-					comment = <"例如：“阿替洛尔 100mg”或“特诺明片 100mg”。
-强烈建议尽可能采用能够触发决策支持手段的术语集来编码“用药项”（Medication item）。编码的程度/范围可能各不相同，包括从用药项简称到关于实际使用的药物包装的结构化详情。只有在没有合适的术语集可用的情况下才应当采用自由文本录入的方式。">
-				>
-				["at0145.1"] = <
-					text = <"*Vaccination awaiting authorisation (en)">
-					description = <"已经准备/书写好了处方草稿，正在等待授权临床医务人员的确认。可以用于批量执行重新授权的情况。照护服务流程步骤（careflow_step）的状态可能是“已计划”或“有效”，反映的则是需要处理新的医嘱以及重新授权的医嘱。">
-				>
-				["at0004.1"] = <
-					text = <"*Vaccination course commenced (en)">
-					description = <"患者已经首次服用相应的药物，或者说已经对其进行了首次的施用/给药。 尽管在某些场所环境下，这一重要的日期可以作为多次施用/给药之中的第一次而用于计算，而在其他的场所环境下，如初级照护服务（基层医疗服务），具体的施用/给药日期并不容易获得。">
-				>
-				["at0005.1"] = <
-					text = <"*Vaccination reassessed (en)">
-					description = <"已经重新评估了相应的具体药物，如是否仍然应当服用该药物。 这一节点并非旨在用于采集药物清单的审核情况。">
-				>
-				["at0006.1"] = <
-					text = <"*Vaccine dose administered (en)">
-					description = <"已经进行了单独一次的药物施用/给药。">
-				>
-				["at0018.1"] = <
-					text = <"*Vaccine dose administration omitted (en)">
-					description = <"已经予以省略/扣除而并未给予的施用/给药。 虽说应该按照原始的医嘱来施用/给予下次剂量的药物（如果有的话），但并不期望后续会再施用/给予所省略/扣除的剂量。">
-				>
-				["at0044.1"] = <
-					text = <"*Vaccine dose administration deferred (en)">
-					description = <"已经推迟一剂药物的施用/给药，但预计会尽快施用/给药。">
-				>
-				["at0009.1"] = <
-					text = <"*Vaccine administrations suspended (en)">
-					description = <"已经暂停了相应药物的施用/给药，直至另行通知。 在重新开始日期之前或满足种种条件之前，不应再进行给予更多的剂量药物。 在设置暂停之后的重新开始日期/条件时，应当执行从“已暂停的施用/给药”（Administrations suspended）返回到“已设定的用药开始日期/条件”（Medication start date/condition set）的步骤。">
-				>
-				["at0015.1"] = <
-					text = <"*Vaccination course stopped (en)">
-					description = <"在预定的治疗过程（疗程）期间，已经停止了相应药物的施用/给药。">
-				>
-				["at0007.1"] = <
-					text = <"*Vaccination course completed (en)">
-					description = <"已经按计划完成了相应的药物治疗过程。">
-				>
-				["at0008.1"] = <
-					text = <"*Vaccine supply delayed (en)">
-					description = <"由于技术或药品供应问题，目前尚未配发相应的处方[药物]。">
-				>
-				["at0.1"] = <
-					text = <"*Dose description (en)">
-					description = <"">
-				>
-				["at0025.1"] = <
-					text = <"*Dose number (en)">
-					description = <"专门针对当前所记录的路径步骤的顺序编号/序列号/序号。">
-					comment = <"例如：疫苗序列号。">
-				>
-				["at0.2"] = <
-					text = <"*Appointment ID (en)">
-					description = <"">
-				>
-				["at0.4"] = <
-					text = <"*Target Disease (en)">
-					description = <"">
-				>
-				["at0.5"] = <
-					text = <"*Country of vaccination (en)">
-					description = <"">
-				>
-				["at0.6"] = <
-					text = <"*Vaccination centre (en)">
-					description = <"">
-				>
-				["at0.7"] = <
-					text = <"*Vaccination centre details (en)">
-					description = <"">
-				>
-				["at0.8"] = <
-					text = <"*Series name (en)">
-					description = <"">
-				>
-				["at0.9"] = <
-					text = <"*Series doses (en)">
-					description = <"">
-				>
-				["at0.10"] = <
-					text = <"*Series doses description (en)">
-					description = <"">
-				>
-				["at0.11"] = <
-					text = <"*Is booster (en)">
-					description = <"">
-				>
-				["at0.12"] = <
-					text = <"*Trial ID (en)">
-					description = <"">
 				>
 			>
 		>
