@@ -33,7 +33,9 @@
           },
           "codeString" : "en"
         },
-        "keywords" : [ ],
+        "purpose" : "This template is for recording the details required for vaccination events including administration events and records where the vaccination event was 'not done'.\nThe template is authored to support NHS Education Scotland (NES) to manage its national record of citizens vaccinations.\nIt is aligned to the FHIR immunization profile but has additional elements to support extensions used in NES's vaccine records database.\nInitial template version is to support a mapping between NES's 'NCDS' vaccines data base and the NES openEHR CDR.",
+        "keywords" : [ "vaccine, vaccination, immunise, immunisation, immunization, immunize" ],
+        "use" : "May be used to store data from external data sources (via mappings) or may be used directly in applications and interfaces to allow direct recording of vaccination events.\n",
         "originalResourceUri" : { },
         "otherDetails" : { }
       }
