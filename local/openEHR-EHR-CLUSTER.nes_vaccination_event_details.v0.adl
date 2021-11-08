@@ -32,7 +32,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ea6b1a88b318cc7e247a2829aeb1de46">
+		["MD5-CAM-1.0.1"] = <"bd2384eb585986af3b916d2ec1cfa070">
 		["build_uid"] = <"d4e41a61-e862-36f9-92b3-6a023daaec68">
 	>
 
@@ -67,15 +67,17 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Dose description">
-					description = <"">
+					description = <"A text description for the dose or sequence that applies to this vaccination event e.g.'First'">
 				>
 				["at0003"] = <
 					text = <"Is booster">
-					description = <"">
+					description = <"A true/false element to allow the recording of whether this vaccination event was for a 'booster' dose - a booster dose is considered to be a reinforcing dose that is administered after the primary course (and primary immunity) has been conferred.
+">
 				>
 				["at0004"] = <
 					text = <"Procedure term">
-					description = <"">
+					description = <"A text or coded description for the vaccination procedure.">
+					comment = <"Should use a terminology, SNOMED CT in the context of this cluster's original use case in NHS Scotland.">
 				>
 			>
 		>
