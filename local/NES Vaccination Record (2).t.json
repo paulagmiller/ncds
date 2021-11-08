@@ -8,7 +8,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "in_development"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "2.1.0",
       "build_uid" : "c4d04b87-044f-4c48-88a0-45be5303603a",
-      "MD5-CAM-1.0.1" : "68412dd0f3c77552eb7ebfff56bceb5e",
+      "MD5-CAM-1.0.1" : "7f9b8989c015b21faebbf04cb0fc5940",
       "PARENT:MD5-CAM-1.0.1" : "8f0bafdfbd41be6e117bd2febdd6252b"
     },
     "details" : {
@@ -36,6 +36,8 @@
         "purpose" : "This template is for recording the details required for vaccination events including administration events and records where the vaccination event was 'not done'.\nThe template is authored to support NHS Education Scotland (NES) to manage its national record of citizens vaccinations.\nIt is aligned to the FHIR immunization profile but has additional elements to support extensions used in NES's vaccine records database.\nInitial template version is to support a mapping between NES's 'NCDS' vaccines data base and the NES openEHR CDR.",
         "keywords" : [ "vaccine, vaccination, immunise, immunisation, immunization, immunize" ],
         "use" : "May be used to store data from external data sources (via mappings) or may be used directly in applications and interfaces to allow direct recording of vaccination events.\n",
+        "misuse" : "This template may not be suitable for using outside of NHS Scotland organisations.",
+        "copyright" : "NHS Education Scotland",
         "originalResourceUri" : { },
         "otherDetails" : { }
       }
@@ -125,7 +127,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "19b0c5d1-e933-3ef5-ab12-956f1e3ae357",
+  "buildUid" : "f0dbab60-a3ec-3d96-84da-05721b27bb2b",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
@@ -3201,7 +3203,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "ea6b1a88b318cc7e247a2829aeb1de46"
+        "PARENT:MD5-CAM-1.0.1" : "bd2384eb585986af3b916d2ec1cfa070"
       },
       "details" : { }
     },
@@ -3240,7 +3242,20 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Procedure term",
+            "description" : ""
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Dose description",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3270,7 +3285,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "0ac4c81482a116b2ddcbdac9c99eaf64"
+        "PARENT:MD5-CAM-1.0.1" : "d9049a06d83e9fe445058c69523c3a16"
       },
       "details" : { }
     },
@@ -3342,7 +3357,38 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003.1",
+            "text" : "Series name",
+            "description" : "Local name or description for the immunisation e.g 'Influenza' 'Hepatitis A/B' 'Hepatitis A and Typhoid'"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Series doses",
+            "description" : ""
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Series doses description",
+            "description" : ""
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Subject agreement to immunisation",
+            "description" : ""
+          },
+          "at0008.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0008.1",
+            "text" : "Trial ID",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
