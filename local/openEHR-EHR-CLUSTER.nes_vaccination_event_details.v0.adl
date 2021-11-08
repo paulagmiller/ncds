@@ -23,14 +23,14 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7181d748d8f6ffa8375f75644bb17ff0">
+		["MD5-CAM-1.0.1"] = <"ea6b1a88b318cc7e247a2829aeb1de46">
 		["build_uid"] = <"d4e41a61-e862-36f9-92b3-6a023daaec68">
 	>
 
 definition
 	CLUSTER[at0000] matches {    -- NES Vaccination event details
 		items cardinality matches {1..*; unordered} matches {
-			ELEMENT[at0002] occurrences matches {0..1} matches {    -- Sequence description
+			ELEMENT[at0002] occurrences matches {0..1} matches {    -- Dose description
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -57,7 +57,7 @@ ontology
 					description = <"NES Vaccination event details">
 				>
 				["at0002"] = <
-					text = <"Sequence description">
+					text = <"Dose description">
 					description = <"">
 				>
 				["at0003"] = <
