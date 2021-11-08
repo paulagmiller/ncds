@@ -18,9 +18,12 @@ description
 	details = <
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"Can be used as part of the Vaccine Administration event to capture recurrent data elements.">
-			keywords = <"Vaccines, vaccination, immunisation, immunise", ...>
+			purpose = <"This cluster is to support specific additional details about vaccination events needed by NHS Education Scotland to allow the recording of the protocol aspects of vaccination events and the mapping of data from NES NCDS vaccination database to the NES openEHR CDR">
+			keywords = <"vaccine, vaccination, immunise, immunisation, immunization, immunize, booster, dose, stage, course, series", ...>
 			copyright = <"© Apperta Foundation">
+			use = <"This cluster is intended to be used in the 'Protocol' cluster slot of the Medication Management archetype as employed in the NES Vaccination Record template to support the specific internal use cases.">
+			misuse = <"It may not be appropriate to use this cluster in other jurisdictions
+">
 		>
 	>
 	other_details = <
