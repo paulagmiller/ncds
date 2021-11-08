@@ -29,13 +29,13 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"Apperta UK">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"3419333c4599e503571e16e98da63512">
+		["MD5-CAM-1.0.1"] = <"586fd9e688a8f355b4c31a2d8202d63e">
 		["build_uid"] = <"091ece2b-3aed-4750-91c5-3d320577bb22">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	CLUSTER[at0000] matches {    -- nes_immunisation_protocol
+	CLUSTER[at0000] matches {    -- nes_vaccination_protocol
 		items cardinality matches {1..*; unordered} matches {
 			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Series name
 				value matches {
@@ -89,7 +89,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"nes_immunisation_protocol">
+					text = <"nes_vaccination_protocol">
 					description = <"NDS_Immunisation_Protocol. a small cluster to support recording additional details about immunization events.">
 				>
 				["at0001"] = <
