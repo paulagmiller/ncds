@@ -9,10 +9,10 @@ language
 
 description
 	original_author = <
-		["date"] = <"2020-08-12">
+		["date"] = <"2021-11-08">
 		["name"] = <"Dr Paul Miller">
 		["organisation"] = <"NES Digital Service">
-		["email"] = <"paul.miller@nes.scot.nhs.uk">
+		["email"] = <"paul.miller@nhs.scot">
 	>
 	lifecycle_state = <"in_development">
 	details = <
