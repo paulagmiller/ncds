@@ -29,7 +29,7 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"Apperta UK">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"3b0a07f178d3a7b7decdecdc8bc9ad05">
+		["MD5-CAM-1.0.1"] = <"3419333c4599e503571e16e98da63512">
 		["build_uid"] = <"091ece2b-3aed-4750-91c5-3d320577bb22">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -62,6 +62,11 @@ definition
 					DV_TEXT matches {*}
 				}
 			}
+			ELEMENT[at0009] occurrences matches {0..1} matches {    -- Vaccination centre
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
 			ELEMENT[at0005] occurrences matches {0..1} matches {    -- Appointment ID
 				value matches {
 					DV_IDENTIFIER matches {*}
@@ -71,6 +76,10 @@ definition
 				value matches {
 					DV_IDENTIFIER matches {*}
 				}
+			}
+			allow_archetype CLUSTER[at0010] occurrences matches {0..*} matches {    -- Vaccination centre details
+				include
+					archetype_id/value matches {/.*|openEHR-EHR-CLUSTER\.organisation\.v0/}
 			}
 		}
 	}
@@ -109,6 +118,14 @@ ontology
 				>
 				["at0008"] = <
 					text = <"Trial ID">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Vaccination centre">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Vaccination centre details">
 					description = <"">
 				>
 			>
